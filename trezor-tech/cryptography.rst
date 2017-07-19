@@ -23,7 +23,7 @@ Mnemonic recovery seed (`BIP39 <https://github.com/bitcoin/bips/blob/master/bip-
 Your TREZOR uses a mnemonic that is between 12 and 24 words.  These mnemonics correspond to recovery seeds of the following size:
 
 =============== ==== ==== ====
-Word count      12   16   24
+Word count      12   18   24
 =============== ==== ==== ====
 Seed size       128  192  256
 --------------- ---- ---- ----

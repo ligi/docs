@@ -37,4 +37,4 @@ Then continue with entering the seed words from your recovery card.
 
 After you have finished, you will be asked to enter your PIN again and then you should see all your accounts as they were before.  You can continue right away!
 
-.. note:: There is also an :doc:`Advanced Recovery<advanced_recovery>` option, which completely obfuscates the letters entered on the computer.
+.. note:: There is also an `Advanced Recovery <https://doc.satoshilabs.com/trezor-user/advancedrecovery.html>`_ option, which completely obfuscates the letters entered on the computer.

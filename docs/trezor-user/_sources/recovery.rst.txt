@@ -36,3 +36,5 @@ Then continue with entering the seed words from your recovery card.
 .. image:: images/recovery-enter-seed-word.png
 
 After you have finished, you will be asked to enter your PIN again and then you should see all your accounts as they were before.  You can continue right away!
+
+.. note:: There is also an :doc:`Advanced Recovery<advanced_recovery>` option, which completely obfuscates the letters entered on the computer.

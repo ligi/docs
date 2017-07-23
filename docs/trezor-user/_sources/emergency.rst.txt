@@ -44,7 +44,7 @@ You have one TREZOR device and recovery seed IS NOT available
 
 Recommended for situations where you have TREZOR available, but not your seed!
 
-There is variety of options with variety of security levels. You can use desktop / mobile / web wallet or even exchange or another hardware wallet. We do recommend to use reliable desktop wallet such as `Electrum <https://www.electrum.org>`_ as it's proven to be safe, it's simple to use for begginers while also offers plenty of features for advanced users.
+There is variety of options with variety of security levels. You can use desktop / mobile / web wallet or even exchange or another hardware wallet. We do recommend to use reliable desktop wallet such as `Electrum <https://www.electrum.org>`_ as it's proven to be safe, it's simple to use for beginners while also offers plenty of features for advanced users.
 
 * Install / Sign up / Register / Initialize 3rd party wallet.
 * Transfer funds from original recovery seed into the new wallet.

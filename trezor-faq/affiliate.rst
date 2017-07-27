@@ -80,7 +80,7 @@ Which banners can I use?
 You can `DOWNLOAD ALL BANNERS IN ZIP <https://shop.trezor.io/static/shared/trezor_banners.zip>`_ and also use the banners we put up temporarily with some special promotion.
 You can also create your own banners, but please send them to us for approval before you start using them. Thanks!
 
-**Preview of Set 1. Finally Easy & Secure - white**
+**Preview of Set 1. Finally Easy & Secure - black**
 
 .. image:: images/overview.png
     :alt: https://shop.trezor.io/static/shared/trezor_banners.zip

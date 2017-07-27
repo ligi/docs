@@ -59,4 +59,4 @@ Enter a new name for your TREZOR device and press Continue.  You should see the 
 .. You don't need to use the `TREZOR Wallet <https://wallet.trezor.io>`_ webservice if you want to use your TREZOR device.  You can use any bitcoin software that supports TREZOR including:
 
  - Electrum
- - Multibit
+ - Mycelium

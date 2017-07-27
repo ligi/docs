@@ -31,10 +31,9 @@ There is full support for Windows (version 7 and higher), OS X (version 10.8 and
 Which wallets are compatible with TREZOR hardware?
 --------------------------------------------------
 
-The list of wallets that can be used with TREZOR device is constantly growing. These inlude
-`TREZOR Wallet <../trezor-apps/trezorwallet.html>`_,
-`Mycelium <../trezor-apps/mycelium.html>`_, and
-`Multibit HD <../trezor-apps/multibit.html>`_.
+The list of wallets that can be used with TREZOR device is constantly growing. These include
+`TREZOR Wallet <../trezor-apps/trezorwallet.html>`_ or
+`Mycelium <../trezor-apps/mycelium.html>`_.
 To see the full list, please check out our `TREZOR Apps <../trezor-apps/index.html>`_.
 
 Which wallets are compatible with TREZOR recovery seed?

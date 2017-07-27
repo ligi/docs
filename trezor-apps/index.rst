@@ -26,7 +26,6 @@ Wallet                                               :icon:`cog`              :i
 `Electrum-DASH <electrum-dash.html>`_                ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
 `Electrum-LTC <electrum-ltc.html>`_                  ✔                                               ✔                                              ✔                      ✔                       ✔                      ✔
 `Etherwall <etherwall.html>`_                                                                          ✔                                            ✔                      ✔
-`MultiBit HD <multibit.html>`_                       ✔                                               ✔                                                                                             ✔                                                                    ✔
 `Mycelium <mycelium.html>`_                                                                          ✔                                              ✔                      ✔                       ✔
 `TREZOR Wallet <trezorwallet.html>`_                 ✔                        ✔                      ✔                                              ✔                      ✔                       ✔                      ✔                      ✔                      ✔
 `Sentinel <sentinel.html>`_                                                                                                                                                ✔                       ✔
@@ -84,7 +83,6 @@ In case your TREZOR device gets lost or damaged, you can access your bitcoins fa
 - `ArcBit <http://arcbit.io>`_ (iOS)
 - `Copay <https://copay.io>`_ (Linux, Windows, OSX, Android, iOS, Windows phone)
 - `Electrum <https://electrum.org/#download>`_ (Linux, Windows, OSX, Android), `recovery manual <https://www.buybitcoinworldwide.com/kb/restore-trezor-seed-electrum>`_
-- `MultiBit HD <https://multibit.org>`_ (Linux, Windows, OSX) - only the first account can be accessed, passphrase not supported
 - `Mycelium <https://play.google.com/store/apps/details?id=com.mycelium.wallet>`_ (Android), `recovery manual <https://www.buybitcoinworldwide.com/kb/restore-trezor-seed-mycelium-android>`_
 
 .. Ongoing Integrations
@@ -125,7 +123,6 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    electrum-dash
    electrum-ltc
    mew
-   multibit
    mycelium
    osclass
    sentinel

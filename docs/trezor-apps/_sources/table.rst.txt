@@ -12,7 +12,6 @@ Copay
 Electrum
 GreenAddress        ✔   x   x   x   ✔   ✔   ✔   x   ✔   ✔   x   ✔   x   x   ✔   x
 Mycelium            x   x   x   x   x   ✔   ✔   x   x   x   x   ✔   ✔   x   x   x
-MultiBit HD         ✔   x   ✔   ✔   x   ✔   ✔   x   ✔   ✔   x   x   x   x   ✔   x
 ================== === === === === === === === === === === === === === === === === === ===
 
 **Stp** - Basic Setup | Generate recovery seed, set PIN, label device,

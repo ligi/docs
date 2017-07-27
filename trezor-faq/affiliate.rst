@@ -82,7 +82,7 @@ You can also create your own banners, but please send them to us for approval be
 
 **Preview of Set 1. Finally Easy & Secure - white**
 
-.. image:: images/banners_preview99.png
+.. image:: images/overview.png
     :alt: https://shop.trezor.io/static/shared/trezor_banners.zip
     :target: https://shop.trezor.io/static/shared/trezor_banners.zip
 

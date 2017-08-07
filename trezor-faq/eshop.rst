@@ -50,7 +50,7 @@ Yes! At the moment you can pay either with BTC or Credit card. However getting b
 3. Buy from exchange:
 
 - `Coinmama.com <https://www.coinmama.com/?ref=Satoshilabs>`_
-- `Coinbase.com <https://www.coinbase.com/join/satoshilabs>`_
+- `Coinbase.com <https://www.coinbase.com/join/52ff49fe40448fb26d00002a>`_
 - `Coinjar.com <https://Coinjar.com>`_
 - `Expresscoin.com <https://Expresscoin.com>`_
 

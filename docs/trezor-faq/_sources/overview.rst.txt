@@ -59,19 +59,20 @@ Which coins are currently supported?
 
 At this moment it is Bitcoin, Ethereum (+ all ERC-20 tokens), Ethereum Classic, ZCash, Litecoin, Namecoin, Dogecoin, Dash and Bitcoin Testnet.
 
-================================= ======================================================
+================================= =========================================================
 Wallet Interfaces for TREZOR by Currency
-----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 Bitcoin                           `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
 Litecoin                          `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
 DASH                              `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
 Zcash                             `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
+Bitcoin Cash / Bcash              `TREZOR Beta Wallet <../trezor-apps/trezorwallet.html>`_
 Ethereum                          `MyEtherWallet <../trezor-apps/mew.html>`_
 Ethereum Classic                  `MyEtherWallet <../trezor-apps/mew.html>`_
 ERC-20 Tokens                     `MyEtherWallet <../trezor-apps/mew.html>`_
 Namecoin                          None
 Dogecoin                          None
 Bitcoin Testnet                   Custom TREZOR Wallet
-================================= ======================================================
+================================= =========================================================
 
 Please check the `TREZOR Apps <../trezor-apps/index.html>`_ for detailed information about the wallets supporting TREZOR

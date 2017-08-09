@@ -45,7 +45,7 @@ Other great sources of information are:
 - `TREZOR FAQ <https://doc.satoshilabs.com/trezor-faq/index.html>`_
 - `trezor.io - product pages <https://trezor.io/>`_
 - `Facebook pages <https://www.facebook.com/BitcoinTrezor>`_
-- `Twitter <https://twitter.com/bitcointrezor>`_
+- `Twitter <https://twitter.com/trezor>`_
 
 User feedback:
 

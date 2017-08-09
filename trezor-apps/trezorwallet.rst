@@ -11,10 +11,11 @@ What is TREZOR Wallet?
 Resources
 ^^^^^^^^^
 
-- `Website <https://wallet.trezor.io>`_
+- `TREZOR Wallet <https://wallet.trezor.io>`_
+- `TREZOR Beta Wallet <https://beta-wallet.trezor.io>`_
 - `User Manual <../trezor-user/settingup.html>`_
 - `Support Center <https://trezor.io/support>`_
-- `Blog <https://blog.trezor.io>`_, `Facebook <https://www.facebook.com/BitcoinTrezor>`_, `Twitter <https://twitter.com/BitcoinTrezor>`_, `Reddit <https://www.reddit.com/r/TREZOR/>`_
+- `Blog <https://blog.trezor.io>`_, `Facebook <https://www.facebook.com/BitcoinTrezor>`_, `Twitter <https://twitter.com/TREZOR>`_, `Reddit <https://www.reddit.com/r/TREZOR/>`_
 
 TREZOR User Manual
 ------------------

@@ -77,14 +77,14 @@ In our `Press Kit <https://github.com/satoshilabs/presskit/archive/master.zip>`_
 Which banners can I use?
 ------------------------
 
-You can `DOWNLOAD ALL BANNERS IN ZIP <https://shop.trezor.io/static/shared/trezor_banners.zip>`_ and also use the banners we put up temporarily with some special promotion.
+You can `DOWNLOAD ALL BANNERS <https://github.com/satoshilabs/presskit/tree/master/banners>`_ and also use the banners we put up temporarily with some special promotion.
 You can also create your own banners, but please send them to us for approval before you start using them. Thanks!
 
 **Preview of Set 1. Finally Easy & Secure - black**
 
 .. image:: images/overview.png
-    :alt: https://shop.trezor.io/static/shared/trezor_banners.zip
-    :target: https://shop.trezor.io/static/shared/trezor_banners.zip
+    :alt: https://github.com/satoshilabs/presskit/tree/master/banners
+    :target: https://github.com/satoshilabs/presskit/tree/master/banners
 
 
 I see some rewards but I didn't receive any BTC yet. Why?

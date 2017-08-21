@@ -27,6 +27,15 @@ Find out more about `how to use TREZOR Wallet here <../trezor-user/settingup.htm
 
 .. image:: images/trezorwallet00.png
 
+What is the difference between TREZOR Wallet and TREZOR Beta Wallet?
+--------------------------------------------------------------------
+
+`TREZOR Wallet <https://wallet.trezor.io>`_ is the official production-level version of the web-wallet interface provided by SatoshiLabs. New functions and features are added at a slower pace, but it is more stable.
+
+`TREZOR Beta Wallet <https://beta-wallet.trezor.io>`_ is the beta version of the web-wallet. New features are generally released here first, before they are fully reliable for the production wallet. Nonetheless, there are no security risks from using the Beta Wallet. The wallet has a beta status due to its potential instability, as it is less polished.
+
+Wallets can be used interchangebly, as they are only the interface.
+
 Properties and Features
 -----------------------
 
@@ -34,8 +43,8 @@ Properties and Features
 Wallet Property                                                         Description
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
 :icon:`laptop` Platform                             ✔                   Web
-:icon:`money` Coin(s)                               ✔                   Bitcoin
-:icon:`language` Languages                          ✔                   English
+:icon:`money` Coin(s)                               ✔                   Bitcoin, Litecoin, DASH, Zcash
+:icon:`language` Languages                          ✔                   English, Czech, Dutch, French, German, Greek, Japanese, Polish, Portuguese, Russian, Spanish, Ukrainian
 :icon:`book` Address Book                                               Manage contact list of receiving and sending addresses
 :icon:`comment` Labelling                           ✔                   Add comments and labels to accounts and transactions
 =================================================== =================== ===========================================================================================================

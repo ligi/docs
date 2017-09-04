@@ -30,11 +30,11 @@ Find out more about `how to use TREZOR Wallet here <../trezor-user/settingup.htm
 What is the difference between TREZOR Wallet and TREZOR Beta Wallet?
 --------------------------------------------------------------------
 
-`TREZOR Wallet <https://wallet.trezor.io>`_ is the official production-level, battle-tested version of the web-wallet interface provided by SatoshiLabs. It is feature-conservative, meaning new functions are added at a slower pace and only after they are thoroughly tested. The purpose of this wallet is to provide a stable access to TREZOR.
+`TREZOR Wallet <https://wallet.trezor.io>`_ is the official production-level, battle-tested version of the web-wallet interface provided by SatoshiLabs. It is feature-conservative, meaning new functions are added at a slower pace and only after they are thoroughly tested. The purpose of this wallet is to provide a stable and uninterrupted access to TREZOR.
 
-`TREZOR Beta Wallet <https://beta-wallet.trezor.io>`_ is a less-tested version of the web-wallet. New features are released here first before we deem them as sufficiently reliable for the production wallet. It is less polished and serves as a public feature-testing platform for the TREZOR community, providing power users with quick access to new features.
+`TREZOR Beta Wallet <https://beta-wallet.trezor.io>`_ is a less-tested version of the web-wallet. New features are released here first before we deem them as sufficiently reliable for the production wallet. It serves as a public feature-testing platform for the TREZOR community, providing power users with quick access to new features.
 
-Wallets can be used interchangebly, as they are only the interface.
+Wallets can be used interchangebly, as they only serve as the interface to your TREZOR.
 
 Properties and Features
 -----------------------

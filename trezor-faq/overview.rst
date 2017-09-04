@@ -66,7 +66,7 @@ Bitcoin                           `TREZOR Wallet <../trezor-apps/trezorwallet.ht
 Litecoin                          `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
 DASH                              `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
 Zcash                             `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
-Bitcoin Cash / Bcash              `TREZOR Beta Wallet <../trezor-apps/trezorwallet.html>`_
+Bitcoin Cash / Bcash              `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
 Ethereum                          `MyEtherWallet <../trezor-apps/mew.html>`_
 Ethereum Classic                  `MyEtherWallet <../trezor-apps/mew.html>`_
 ERC-20 Tokens                     `MyEtherWallet <../trezor-apps/mew.html>`_

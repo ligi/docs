@@ -23,6 +23,7 @@ So if you were to copy the numbers from your TREZOR's screen onto the dot pad in
 
 Now entering your PIN should be easy!
 
+.. important:: From firmware version 1.5.1, the TREZOR device wipes itself after 16 wrong PIN entries.
 
 Choose a good PIN
 -------------------

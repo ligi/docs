@@ -45,7 +45,7 @@ Sending Transactions
 If you have selected “Send Ether & Tokens,” you can continue with these steps. At this stage, you are ready to send transactions. Enter the details and click on “Generate Transaction”.
 
 .. image:: images/mew5.png
-.. image:: images/mew6.png
+.. image:: images/mew6.jpeg
 
 Another TREZOR Connect prompt will show up and ask you to confirm the transaction on your TREZOR. (Your TREZOR has been unlocked in the previous stage.)
 

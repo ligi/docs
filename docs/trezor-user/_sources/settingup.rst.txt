@@ -34,12 +34,14 @@ Please see our step by step manual :doc:`how to set up TREZOR with TREZOR Manage
 This procedure is only for advanced users! We do not recommend to use it unless you have some experience with command line and Python. If you wish to proceed further anyway please visit our `Github repository <https://github.com/trezor/python-trezor>`_.
 
 
-TREZOR Setup
-------------
+TREZOR Setup in TREZOR Wallet
+-----------------------------
 
-The process of actual device setup is pretty much the same when using TREZOR Wallet, Chrome extension or TREZOR Manager for Android. Let's go through it when setting up at TREZOR Wallet (wallet.trezor.io).
+The process of actual device setup is pretty much the same when using TREZOR Wallet, Chrome extension or TREZOR Manager for Android. Let's go through it when setting up in TREZOR Wallet (wallet.trezor.io).
 
-This time you should see a web page welcoming you and asking for a device label:
+As TREZOR comes without firmware installed, to make sure you always have the newest version when setting up, the first thing you will be asked to do is to install the device system - firmware. Simply confirm it on the device, and verify the fingerprint after the process is done.
+
+After installing firmware, replug your TREZOR, and you should see a web page welcoming you and asking for a device label:
 
 .. image:: images/welcometosetup.png
 

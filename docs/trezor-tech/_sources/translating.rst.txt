@@ -75,4 +75,4 @@ Languages Translated
 Reward
 ^^^^^^
 
-For the complete translation of one language we offer a limited 2-color version of TREZOR or $100 worth of Bitcoin.
+For a complete translation of one language we offer a TREZOR device of your color choice (Black or White).

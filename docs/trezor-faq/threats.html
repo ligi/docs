@@ -79,6 +79,7 @@
 <li class="toctree-l2"><a class="reference internal" href="overview.html#what-is-trezor">What is TREZOR?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="overview.html#how-does-trezor-work">How does TREZOR work?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="overview.html#which-operating-systems-and-devices-support-trezor">Which operating systems and devices support TREZOR?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="overview.html#which-browsers-are-currently-supported-by-trezor-wallet">Which browsers are currently supported by TREZOR wallet?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="overview.html#which-wallets-are-compatible-with-trezor-hardware">Which wallets are compatible with TREZOR hardware?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="overview.html#which-wallets-are-compatible-with-trezor-recovery-seed">Which wallets are compatible with TREZOR recovery seed?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="overview.html#which-wallets-or-services-can-import-trezor-account-public-keys-xpub">Which wallets or services can import TREZOR account public keys (xpub)?</a></li>
@@ -152,6 +153,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#why-didn-t-you-use-secure-element-or-secure-chip">Why didn&#8217;t you use Secure Element or Secure Chip?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#what-s-up-with-the-side-channel-attacks">What&#8217;s up with the side channel attacks?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-about-mcu-glitching">How about MCU glitching?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-if-the-rng-is-flawed">What if the RNG is flawed?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#what-doesn-t-trezor-protect-against-yet">What doesn&#8217;t TREZOR protect against (yet)?</a></li>
 </ul>
 </li>
@@ -247,7 +249,7 @@
 <p>Just how easy (or hard) is it to get some bitcoins out of a stolen TREZOR?</p>
 <div class="section" id="brute-forcing-the-trezor-pin">
 <h3>Brute forcing the TREZOR PIN<a class="headerlink" href="#brute-forcing-the-trezor-pin" title="Permalink to this headline">¶</a></h3>
-<p>Your TREZOR is protected by a PIN code, which can be up to 9 digits between 1 and 9.  There are 6561 possible 4 digit PINs for the TREZOR.  If you choose a good PIN, it will take hundreds of thousands of guesses to guess your PIN.  Each time you enter a wrong PIN, the wait time increases by a power of 2.  After the first few failures, you have to wait several seconds before you&#8217;ll be able to try another PIN.  Even just trying the <a class="reference external" href="http://www.datagenetics.com/blog/september32012/">top 20 PINs</a> would take about 6 days(150 hours). Trying 30 PINs would take around 17 years.  Trying 100 random PINs would take a VERY LONG time.</p>
+<p>Your TREZOR is protected by a PIN code, which can be up to 9 digits between 1 and 9.  There are 6561 possible 4 digit PINs for the TREZOR.  If you choose a good PIN, it will take hundreds of thousands of guesses to guess your PIN.  Each time you enter a wrong PIN, the wait time increases by a power of 2.  After the first few failures, you have to wait several seconds before you&#8217;ll be able to try another PIN. Trying the <a class="reference external" href="http://www.datagenetics.com/blog/september32012/">top 15 PINs</a> would take about 18 hours. After this, the device wipes itself.</p>
 <p>The number of PIN entry failures is stored in the TREZOR&#8217;s memory.  This means that power cycling the TREZOR won&#8217;t magically make the wait time go to zero again.  The best you can do by turning the TREZOR on and off again is make the timer start over again.</p>
 </div>
 <div class="section" id="reflashing-the-trezor-with-evil-firmware">
@@ -275,7 +277,8 @@
 </div>
 <div class="section" id="what-happens-if-the-satoshilabs-servers-are-hacked-and-the-firmware-signing-key-is-stolen">
 <h2>What happens if the SatoshiLabs servers are hacked and the firmware signing key is stolen?<a class="headerlink" href="#what-happens-if-the-satoshilabs-servers-are-hacked-and-the-firmware-signing-key-is-stolen" title="Permalink to this headline">¶</a></h2>
-<p>First off, this won&#8217;t happen ;).  The SatoshiLabs master key is kept very safe.  However, you don&#8217;t need to rely on the SatoshiLabs signature.  You can <a class="reference external" href="https://github.com/trezor/trezor-mcu/blob/master/README.md">verify the build yourself</a>.  Our hope is that a few trusted TREZOR users will make a habit of verifying firmware checksums.  If you are concerned about this, we suggest making a habit of checking <a class="reference external" href="https://blog.trezor.io">our blog</a> or social news channels such as <a class="reference external" href="https://www.reddit.com/r/TREZOR">reddit</a> before applying any updates.  If there ever was a problem with the firmware not matching the source code, you can be sure someone will have written about it.</p>
+<p>First off, this won&#8217;t happen ;). The SatoshiLabs master key is kept very safe. Moreover, it takes more than one key to sign the firmware.</p>
+<p>However, you don&#8217;t need to rely on the SatoshiLabs signature.  You can <a class="reference external" href="https://github.com/trezor/trezor-mcu/blob/master/README.md">verify the build yourself</a>.  Our hope is that a few trusted TREZOR users will make a habit of verifying firmware checksums.  If you are concerned about this, we suggest making a habit of checking <a class="reference external" href="https://blog.trezor.io">our blog</a> or social news channels such as <a class="reference external" href="https://www.reddit.com/r/TREZOR">reddit</a> before applying any updates.  If there ever was a problem with the firmware not matching the source code, you can be sure someone will have written about it.</p>
 <p>You don&#8217;t need to worry about the firmware being updated by a computer virus.  Your TREZOR will ask you to manually confirm the update before anything is written to the TREZOR&#8217;s memory.</p>
 </div>
 <div class="section" id="what-happens-if-the-satoshilabs-shuts-down">
@@ -320,6 +323,10 @@ You can use your TREZOR together with other BIP32, BIP39 and BIP44 <a class="ref
 <div class="section" id="how-about-mcu-glitching">
 <h2>How about MCU glitching?<a class="headerlink" href="#how-about-mcu-glitching" title="Permalink to this headline">¶</a></h2>
 <p>We did our best to protect the MCU against glitching (e.g. when we check the PIN, we first increase the PIN failure count, write it to flash, verify that write was OK, then check whether the PIN was correct and if it was correct then we reset the PIN failure count). That way you cannot glitch the PIN increase write.</p>
+</div>
+<div class="section" id="what-if-the-rng-is-flawed">
+<h2>What if the RNG is flawed?<a class="headerlink" href="#what-if-the-rng-is-flawed" title="Permalink to this headline">¶</a></h2>
+<p>TREZOR uses randomness from both its own internal Random Number Generator (RNG) and from the host computer. The device then combines this randomness by XOR-ing, making sure that even if the entropy supplied by one source is flawed, it will still remain truly random.</p>
 </div>
 <div class="section" id="what-doesn-t-trezor-protect-against-yet">
 <h2>What doesn&#8217;t TREZOR protect against (yet)?<a class="headerlink" href="#what-doesn-t-trezor-protect-against-yet" title="Permalink to this headline">¶</a></h2>

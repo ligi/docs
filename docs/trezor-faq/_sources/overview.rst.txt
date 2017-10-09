@@ -28,6 +28,11 @@ Which operating systems and devices support TREZOR?
 
 There is full support for Windows (version 7 and higher), OS X (version 10.8 and higher) and Linux. You can also use your TREZOR with Android devices which have USB On-The-Go (aka USB Host).
 
+Which browsers are currently supported by TREZOR wallet?
+---------------------------------------------------
+
+The major supported browsers are Chrome and Firefox. The other browsers may be usable but we can't guarantee the full functionality.
+
 Which wallets are compatible with TREZOR hardware?
 --------------------------------------------------
 
@@ -66,7 +71,7 @@ Bitcoin                           `TREZOR Wallet <../trezor-apps/trezorwallet.ht
 Litecoin                          `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
 DASH                              `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
 Zcash                             `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
-Bitcoin Cash / Bcash              `TREZOR Beta Wallet <../trezor-apps/trezorwallet.html>`_
+Bitcoin Cash / Bcash              `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
 Ethereum                          `MyEtherWallet <../trezor-apps/mew.html>`_
 Ethereum Classic                  `MyEtherWallet <../trezor-apps/mew.html>`_
 ERC-20 Tokens                     `MyEtherWallet <../trezor-apps/mew.html>`_

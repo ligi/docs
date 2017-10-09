@@ -7,7 +7,7 @@ Blockonomics
 What is Blockonomics?
 -------------------------
 
-`Blockonomics <https://www/blockonomics.co>`_ is a web based bitcoin tracker.
+`Blockonomics <https://www.blockonomics.co>`_ is a web based bitcoin tracker.
 Its wallet watcher can be used to see history of your bitcoin transactions,
 get email notfications of payments and know your total balance. You can also create encrypted invoices, receive payments directly into your TREZOR
 wallet without the need of opening your wallet.    

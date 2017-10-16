@@ -24,7 +24,7 @@ Choose your language. In this example we are going to use Chinese.
 
 .. note:: We recommend to write down notes while translating so you know how you translated specific words and the translation stays consistent during the whole process. This comes really handy later as we can speak from our own experience.
 
-.. important:: In some languages might be an option to choose between "official" and "unofficial" way of speach. We do prefer the more official way.
+.. important:: In some languages might be an option to choose between "official" and "unofficial" way of speech. We do prefer the more official way.
 
 Please translate each string as exactly as possible, but main point is to keep the **original meaning**.
 
@@ -32,7 +32,7 @@ It's in the context of User Interface so it might be necessary to check the webs
 
 You will also find strings which contain placeholders and HTML tags. In that case use the Copy button on the right side to copy the whole string and translate only things placed out of those placeholders (for example following string):
 
-  <b>%(key)s</b> changed from <b>%(old)s</b> to <b>%(new)s</b>
+  <b>{{key}}</b> changed from <b>{{old}}</b> to <b>{{new}}</b>
 
 Please translate the **changed from** and **to** only. Placement of these special strings in sentence does not matter as long as you keep them spelled properly. If your language does require some specific word sequence, you may shuffle them.
 

@@ -44,6 +44,7 @@ If you are concerned about such an attack, it is a good idea to sign the back of
 
 The TREZOR's chassis is sealed using ultrasound. Opening the TREZOR without destroying the case is nearly impossible.
 
+.. image:: images/ultrasonic_welding.png
 
 What if my computer that runs my bitcoin wallet is stolen?
 ==========================================================

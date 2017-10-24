@@ -9,6 +9,8 @@ Except for `TREZOR Wallet <https://wallet.trezor.io>`_, you can use your TREZOR 
 - `Online Services <index.html#using-trezor-with-online-services>`_
 - `Recovering Funds <index.html#recovering-funds-without-trezor-device>`_
 
+.. note:: Many of the presented third-party wallets/services still don't support Bitcoin SegWit transactions, therefore your SegWit accounts cannot be accessible when using them. Please also understand that we don't develop nor maintain third-party software, so we can't guarantee their full functionality.
+
 Using TREZOR With Bitcoin and Altcoin Wallets
 ---------------------------------------------
 

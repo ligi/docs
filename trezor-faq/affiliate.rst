@@ -82,7 +82,7 @@ You can also create your own banners, but please send them to us for approval be
 
 **Preview of Set 1. Finally Easy & Secure - black**
 
-.. image:: images/overview.png
+.. image:: images/overview.jpg
     :alt: https://github.com/satoshilabs/presskit/tree/master/banners
     :target: https://github.com/satoshilabs/presskit/tree/master/banners
 

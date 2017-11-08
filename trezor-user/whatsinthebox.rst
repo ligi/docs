@@ -12,12 +12,12 @@ So today you got your TREZOR.  Congratulations!  In the small box with the shiny
 - User manual
 - Set of stickers (4 pcs)
 
-.. note:: Your TREZOR doesn't have any batteries in it.  So you won't see anything on the screen until you plug it in.
+.. note:: Your TREZOR doesn't have any batteries in it. So you won't see anything on the screen until you plug it in your computer or phone.
 
 Check the security seal
 -----------------------
 
-Make sure that couple of the silver security seals are unbroken to ensure you are working with an authentic TREZOR device.
+Make sure that couple of the silver security seals are unbroken to ensure you are working with an authentic TREZOR device. Your device should be also wrapped in a thin plastic foil and the package itself carefully sealed with a strong glue.
 
   .. image:: images/IMG_1339.jpg
   

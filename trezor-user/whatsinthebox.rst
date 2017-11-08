@@ -19,7 +19,7 @@ Check the security seal
 
 Make sure that couple of the silver security seals are unbroken to ensure you are working with an authentic TREZOR device.
 
-  .. image:: images/TRZ_front.jpg
+  .. image:: images/IMG_1339.jpg
   
   Since the last batch we have changed the packaging of the TREZOR. Here are the changes described:
 

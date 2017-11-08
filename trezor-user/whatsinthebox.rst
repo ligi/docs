@@ -26,6 +26,7 @@ Make sure that couple of the silver security seals are unbroken to ensure you ar
 - TREZOR logo does not say "TREZOR The Bitcoin Safe", but "TREZOR" only the package is slightly bigger (100 x 100 x 13 mm)
 - There is less text on the package
 - Sticker with barcode, UPC code and product name is on every package
+- Sticker with a small QR code containing manufacturing batch information
 - In the instructions is written to go to trezor.io/start instead of mytrezor.com
 - There are two holographic stickers in this batch (one on each side)
 - Starting with this batch TREZOR contains bootloader 1.3.2 and no firmware. This is done so that you can be sure your TREZOR  will be always running the correct FW, and that the first FW will be the most up-to-date one. (In any case, if your TREZOR runs an unofficial firmware, it will display a warning on boot up.)

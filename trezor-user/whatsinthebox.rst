@@ -3,7 +3,7 @@ What's in the box?
 
 So today you got your TREZOR.  Congratulations!  In the small box with the shiny TREZOR seal on it you should find:
 
-.. image:: images/IMG_1326.jpg
+.. image:: images/IMG_1344.jpg
 
 - Your new TREZOR device
 - USB cable for your TREZOR

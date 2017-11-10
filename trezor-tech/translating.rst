@@ -31,11 +31,6 @@ Please translate each string as exactly as possible, but main point is to keep t
 * Always check Terms tab (Glossary) to keep the translation consistent.
 * Using automatic translations in Suggestions tab can speed up your work.
 
-Please report any inconsistencies, unclarities or mistakes in the English language (source) or in the UI. 
-
-* To report any particular issue or to suggest specific improvements, use the Comments tab during translation. 
-* To report a general issue, please use the `Discussions panel. <https://crowdin.com/project/trezor-wallet/discussions>`_
-
 .. image:: images/crowdin-translation.png
 
 You will also find strings which contain placeholders and HTML tags. In that case copy the whole string and translate only things placed out of those placeholders (for example following string):
@@ -43,6 +38,11 @@ You will also find strings which contain placeholders and HTML tags. In that cas
   <b>{{key}}</b> changed from <b>{{old}}</b> to <b>{{new}}</b>
 
 Please translate the **changed from** and **to** only. Placement of these special strings in sentence does not matter as long as you keep them spelled properly. If your language does require some specific word sequence, you may shuffle them.
+
+Please report any inconsistencies, unclarities or mistakes in the English language (source) or in the UI. 
+
+* To report any particular issue or to suggest specific improvements, use the Comments tab during translation. 
+* To report a general issue, please use the `Discussions panel. <https://crowdin.com/project/trezor-wallet/discussions>`_
 
 In case of any issues, difficulties or questions please check the `CrowdIn Documentation <https://support.crowdin.com/online-editor/>`_ or contact us via `Support <https://satoshilabs.kayako.com/conversation/new/2>`_
 

@@ -4,7 +4,7 @@ CrowdIn.com - Tool for translating
 1. Register
 -------------
 
-Please register at `CrowdIn.com <https://crowdin.com/join>`_ and send a request email to `our translations coordinator <mailto:translations@satoshilabs.com>`_ with the subject “Translation TREZOR Wallet (Language)”.
+Please register at `CrowdIn.com <https://crowdin.com/join>`_ and send a request email to `translations coordinator <mailto:translations@satoshilabs.com>`_ with the subject “Translation TREZOR Wallet (Language)”.
 
 2. Join translation project
 ---------------------------

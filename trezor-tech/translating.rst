@@ -4,12 +4,12 @@ CrowdIn.com - Tool for translating
 1. Register
 -------------
 
-Please register at `CrowdIn.com <https://crowdin.com/join>`_ and send a request email to `Support <https://satoshilabs.kayako.com/conversation/new/2>`_ with the subject “Translation TREZOR Wallet (Language)”.
+Please register at `CrowdIn.com <https://crowdin.com/join>`_ and send a request email to `our translations coordinator <mailto:translations@satoshilabs.com>`_ with the subject “Translation TREZOR Wallet (Language)”.
 
 2. Join translation project
 ---------------------------
 
-Our support will reply by sending you an invitation to the requested language. Please, Join TREZOR Wallet translation project in CrowdIn using the provided link and navigate to the requested language. The language in the example below is Czech.
+We will reply by sending you an invitation to the requested language. Please, Join TREZOR Wallet translation project in CrowdIn using the provided link and navigate to the requested language. The language in the example below is Czech.
 
 .. important:: Please keep in mind the language you are selecting is actually the language you are going to translate **INTO**, not FROM. You will be always translating from English.
 
@@ -48,4 +48,4 @@ In case of any issues, difficulties or questions please check the `CrowdIn Docum
 Reward
 ^^^^^^
 
-For a complete translation of one language we offer a TREZOR device of your color choice (Black or White).
+For a complete translation of one language we offer a "TREZOR One" device of your color choice (Black or White).

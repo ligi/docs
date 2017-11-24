@@ -26,13 +26,13 @@ Using Copay wallet and TREZOR together
 
 On your PC, Copay can be used with TREZOR as an alternative to TREZOR Wallet. After you import one of your TREZOR accounts into Copay,
 you will be able to check its balance, transaction history and send payments from it. More profoundly, Copay is one the first bitcoin apps, that lets
-you create shared (or multisignature) wallet . Below, we provide an example how three company owners can create and manage a shared wallet.
+you create shared (or multi-signature) wallet. Below, we provide an example how three company owners can create and manage a shared wallet.
 
 
 Creating 2-of-3 shared wallet
 -----------------------------
 
-Imagine that Alice, Bob and Charlie are managing company bitcoin funds together. For this purpose they will create 2-of-3 shared wallet where transactions has to be signed by two of them. Thus when Alice creates and signs transaction proposal, she needs Bob or Charlie to coopeate and sign her proposal to make a transaction on behalf of the company.
+Imagine that Alice, Bob and Charlie are managing company bitcoin funds together. For this purpose they will create 2-of-3 shared wallet where transactions has to be signed by two of them. Thus when Alice creates and signs transaction proposal, she needs Bob or Charlie to cooperate and sign her proposal to make a transaction on behalf of the company.
 
 Alice initiates shared wallet creation in Copay using her TREZOR and then she shares invitation with Bob and Charlie, so that can join the wallet using their TREZORs.
 
@@ -40,7 +40,7 @@ From application menu in Copay, she selects **Add Wallet** > **Create New Wallet
 
 .. image:: images/copay01.png
 
-.. important:: Shared accounts (BIP48) are different from your personal accounts (BIP44) and can't be viewed in TREZOR Wallet. User must choose a unique shared account number that is not already used in other shared wallet. If selected account is not unique, Copay will notify user.
+.. important:: Shared accounts (which use 48 as the `BIP43 <https://github.com/bitcoin/bips/blob/master/bip-0043.mediawiki>`_ "Purpose field") are different from your personal accounts (BIP44) and can't be viewed in TREZOR Wallet. User must choose a unique shared account number that is not already used in other shared wallet. If selected account is not unique, Copay will notify user.
 
 When Alice confirms to **Create 2-of-3 Wallet**, TREZOR Connect dialog will appear and let Alice to connect her TREZOR, authenticate with PIN, check and confirm the action. After exporting two account public keys, Copay will display **wallet invitation**, secret that will Alice share with their colleagues.
 
@@ -68,12 +68,12 @@ Sending payment from shared wallet requires cooperation of other copayers. When 
 
 .. image:: images/copay08.png
 
-After Alice signs the transaction, a payment proposal is created and Bob and Charlie are notified about it. When Bob opens his Copay, he will see the payment proposal in the Home tab. He can go on and check the details. When he decides to Accept the proposal, he will sign it in the same way as Alice, which (in case of 2-of-3 wallet) will finilize the payment proposal and transaction will be published.
+After Alice signs the transaction, a payment proposal is created and Bob and Charlie are notified about it. When Bob opens his Copay, he will see the payment proposal in the Home tab. He can go on and check the details. When he decides to Accept the proposal, he will sign it in the same way as Alice, which (in case of 2-of-3 wallet) will finalize the payment proposal and transaction will be published.
 
 .. image:: images/copay09a.png
 .. image:: images/copay09b.png
 
-Meanwhile Alice can monitor the state of her payment proposal. When the trasaction is finilized she will see "Payment sent" confirmation. Alice, Bob and Charlie can always check all the transactions later in History tab.
+Meanwhile Alice can monitor the state of her payment proposal. When the transaction is finalized she will see "Payment sent" confirmation. Alice, Bob and Charlie can always check all the transactions later in History tab.
 
 .. image:: images/copay10a.png
 .. image:: images/copay10b.png
@@ -110,9 +110,9 @@ Wallet Property
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :icon:`laptop` Platform                             ✔                   Windows, Linux, OSX with Chrome Extension
 :icon:`money` Coin(s)                               ✔                   Bitcoin
-:icon:`language` Languages                          ✔                   English, Spanish, German, Italian, Japaneese and many others.
+:icon:`language` Languages                          ✔                   English, Spanish, German, Italian, Japanese and many others.
 :icon:`book` Address Book                           ✔                   Manage contact list of receiving and sending addresses
-:icon:`comment` Labelling                           ✔                   Add comments and labels to accounts and transactions
+:icon:`comment` Labeling                            ✔                   Add comments and labels to accounts and transactions
 :icon:`bell-o` Notifications                        ✔                   Transaction notifications via email or SMS
 =================================================== =================== ===========================================================================================================
 
@@ -124,7 +124,7 @@ TREZOR Feature
 :icon:`user-secret` Hidden Wallets                  ✔                   User can access hidden wallets each behind arbitrary passphrase
 :icon:`bars` Multiple Accounts                      ✔                   Capable of creating and working with multiple accounts
 :icon:`th` Smart PIN Matrix                         ✔                   Keylogger protection, displaying PIN matrix on TREZOR's display
-:icon:`eye-slash` Watch-only mode                   ✔                   Remembering account, generating new receiving address with TREZOR disconected
+:icon:`eye-slash` Watch-only mode                   ✔                   Remembering account, generating new receiving address with TREZOR disconnected
 :icon:`eye`  Show on TREZOR                                             Phishing protection, validation receiving address on TREZOR
 :icon:`envelope` Sign & Verify Message                                  Securely sign and verify short text
 :icon:`lock` Wallet Encryption                                          Wallet can be decrypted and opened using TREZOR only

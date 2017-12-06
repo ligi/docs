@@ -264,18 +264,18 @@
 <h3>Using Copay wallet and TREZOR together<a class="headerlink" href="#using-copay-wallet-and-trezor-together" title="Permalink to this headline">¶</a></h3>
 <p>On your PC, Copay can be used with TREZOR as an alternative to TREZOR Wallet. After you import one of your TREZOR accounts into Copay,
 you will be able to check its balance, transaction history and send payments from it. More profoundly, Copay is one the first bitcoin apps, that lets
-you create shared (or multisignature) wallet . Below, we provide an example how three company owners can create and manage a shared wallet.</p>
+you create shared (or multi-signature) wallet. Below, we provide an example how three company owners can create and manage a shared wallet.</p>
 </div>
 </div>
 <div class="section" id="creating-2-of-3-shared-wallet">
 <h2>Creating 2-of-3 shared wallet<a class="headerlink" href="#creating-2-of-3-shared-wallet" title="Permalink to this headline">¶</a></h2>
-<p>Imagine that Alice, Bob and Charlie are managing company bitcoin funds together. For this purpose they will create 2-of-3 shared wallet where transactions has to be signed by two of them. Thus when Alice creates and signs transaction proposal, she needs Bob or Charlie to coopeate and sign her proposal to make a transaction on behalf of the company.</p>
+<p>Imagine that Alice, Bob and Charlie are managing company bitcoin funds together. For this purpose they will create 2-of-3 shared wallet where transactions has to be signed by two of them. Thus when Alice creates and signs transaction proposal, she needs Bob or Charlie to cooperate and sign her proposal to make a transaction on behalf of the company.</p>
 <p>Alice initiates shared wallet creation in Copay using her TREZOR and then she shares invitation with Bob and Charlie, so that can join the wallet using their TREZORs.</p>
 <p>From application menu in Copay, she selects <strong>Add Wallet</strong> &gt; <strong>Create New Wallet</strong>. After filling out her name and wallet parameters on the <strong>Shared Wallet</strong> tab, she selects TREZOR Hardware Wallet from Wallet Seed menu and enters an unused shared TREZOR account.</p>
 <img alt="_images/copay01.png" src="_images/copay01.png" />
 <div class="admonition important">
 <p class="first admonition-title">Important</p>
-<p class="last">Shared accounts (BIP48) are different from your personal accounts (BIP44) and can&#8217;t be viewed in TREZOR Wallet. User must choose a unique shared account number that is not already used in other shared wallet. If selected account is not unique, Copay will notify user.</p>
+<p class="last">Shared accounts (which use 48 as the <a class="reference external" href="https://github.com/bitcoin/bips/blob/master/bip-0043.mediawiki">BIP43</a> &#8220;Purpose field&#8221;) are different from your personal accounts (BIP44) and can&#8217;t be viewed in TREZOR Wallet. User must choose a unique shared account number that is not already used in other shared wallet. If selected account is not unique, Copay will notify user.</p>
 </div>
 <p>When Alice confirms to <strong>Create 2-of-3 Wallet</strong>, TREZOR Connect dialog will appear and let Alice to connect her TREZOR, authenticate with PIN, check and confirm the action. After exporting two account public keys, Copay will display <strong>wallet invitation</strong>, secret that will Alice share with their colleagues.</p>
 <img alt="_images/copay05.png" src="_images/copay05.png" />
@@ -292,10 +292,10 @@ you create shared (or multisignature) wallet . Below, we provide an example how 
 <h3>Sending payment from shared wallet<a class="headerlink" href="#sending-payment-from-shared-wallet" title="Permalink to this headline">¶</a></h3>
 <p>Sending payment from shared wallet requires cooperation of other copayers. When Alice decides to send company bitcoins, she goes to Send tab, enters recipient address and amount. When she confirms to Send the transactions, TREZOR Connect dialog will appear and let Alice to connect her TREZOR, authenticate with PIN, check and confirm the transaction on TREZOR&#8217;s display.</p>
 <img alt="_images/copay08.png" src="_images/copay08.png" />
-<p>After Alice signs the transaction, a payment proposal is created and Bob and Charlie are notified about it. When Bob opens his Copay, he will see the payment proposal in the Home tab. He can go on and check the details. When he decides to Accept the proposal, he will sign it in the same way as Alice, which (in case of 2-of-3 wallet) will finilize the payment proposal and transaction will be published.</p>
+<p>After Alice signs the transaction, a payment proposal is created and Bob and Charlie are notified about it. When Bob opens his Copay, he will see the payment proposal in the Home tab. He can go on and check the details. When he decides to Accept the proposal, he will sign it in the same way as Alice, which (in case of 2-of-3 wallet) will finalize the payment proposal and transaction will be published.</p>
 <img alt="_images/copay09a.png" src="_images/copay09a.png" />
 <img alt="_images/copay09b.png" src="_images/copay09b.png" />
-<p>Meanwhile Alice can monitor the state of her payment proposal. When the trasaction is finilized she will see &#8220;Payment sent&#8221; confirmation. Alice, Bob and Charlie can always check all the transactions later in History tab.</p>
+<p>Meanwhile Alice can monitor the state of her payment proposal. When the transaction is finalized she will see &#8220;Payment sent&#8221; confirmation. Alice, Bob and Charlie can always check all the transactions later in History tab.</p>
 <img alt="_images/copay10a.png" src="_images/copay10a.png" />
 <img alt="_images/copay10b.png" src="_images/copay10b.png" />
 </div>
@@ -342,13 +342,13 @@ if you use other client wallet then Copay with your TREZOR. Here is how you do i
 </tr>
 <tr class="row-even"><td><em class="fa-language fa"></em> Languages</td>
 <td>✔</td>
-<td>English, Spanish, German, Italian, Japaneese and many others.</td>
+<td>English, Spanish, German, Italian, Japanese and many others.</td>
 </tr>
 <tr class="row-odd"><td><em class="fa-book fa"></em> Address Book</td>
 <td>✔</td>
 <td>Manage contact list of receiving and sending addresses</td>
 </tr>
-<tr class="row-even"><td><em class="fa-comment fa"></em> Labelling</td>
+<tr class="row-even"><td><em class="fa-comment fa"></em> Labeling</td>
 <td>✔</td>
 <td>Add comments and labels to accounts and transactions</td>
 </tr>
@@ -389,7 +389,7 @@ if you use other client wallet then Copay with your TREZOR. Here is how you do i
 </tr>
 <tr class="row-odd"><td><em class="fa-eye-slash fa"></em> Watch-only mode</td>
 <td>✔</td>
-<td>Remembering account, generating new receiving address with TREZOR disconected</td>
+<td>Remembering account, generating new receiving address with TREZOR disconnected</td>
 </tr>
 <tr class="row-even"><td><em class="fa-eye fa"></em>  Show on TREZOR</td>
 <td>&nbsp;</td>

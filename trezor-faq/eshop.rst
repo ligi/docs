@@ -117,7 +117,7 @@ We will try to include it as soon as possible.
 How long does it take you to handle the order?
 ----------------------------------------------
 
-We process orders with the DHL Express shipping every working day and with the standard shipping 3 times a week (Monday, Wednesday, Friday). If an order is made before 10:00 CET/CEST on the shipping day, we ship the order the same day.
+We process orders with the DHL Express shipping every working day and with the standard shipping 3 times a week (Monday, Wednesday, Friday - in December and especially before Christmas, there may be some delays due to the higher demand for our product). If an order is paid before 10:00 CET/CEST on the shipping day, we usually ship the order the same day. Otherwise, the estimated shipping is within two business days after the payment is confirmed. 
 
 
 What are the shipping options?

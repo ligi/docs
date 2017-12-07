@@ -174,7 +174,7 @@
 <img alt="_images/connect-screen.png" src="_images/connect-screen.png" />
 <p>and TREZOR will show the following confirmation screen:</p>
 <img alt="_images/connect-display.png" src="_images/connect-display.png" />
-<p>After user confirms the action, the device will return a structure with signed login information. Your backend service just needs to check the signature against user&#8217;s public key.</p>
+<p>After user confirms the action, the device will return a structure with signed login information. Your backend service just needs to check the signature against user’s public key.</p>
 </div>
 <div class="section" id="how-to-implement">
 <h2>How to implement<a class="headerlink" href="#how-to-implement" title="Permalink to this headline">¶</a></h2>
@@ -189,11 +189,11 @@
 <p>There is no other way how to login and site operator should decide carefully if he allows any other (usually much weaker) form of authentication and TREZOR identity override.</p>
 <p><strong>Classic sign in along with TREZOR option</strong> (use case B)</p>
 <p>This case occurs when TREZOR is only one of more ways of accessing user account. Usually user already has an account with username-password authentication and he pairs TREZOR with his account later.</p>
-<p>With this option, user doesn&#8217;t have to expose his orginal credentials each time he authenticates. Nevertheless, he can still easily recover access to the account using username &amp; password if his TREZOR identity gets lost.</p>
+<p>With this option, user doesn’t have to expose his orginal credentials each time he authenticates. Nevertheless, he can still easily recover access to the account using username &amp; password if his TREZOR identity gets lost.</p>
 <p>Site can also give user an option of disabling the original credentials, thus effectively creating the first use case.</p>
 <div class="admonition important">
 <p class="first admonition-title">Important</p>
-<p class="last">Pairing TREZOR with user&#8217;s account create new way of accessing it. The site should always authenticate the user before confirming the action.</p>
+<p class="last">Pairing TREZOR with user’s account create new way of accessing it. The site should always authenticate the user before confirming the action.</p>
 </div>
 <p><strong>TREZOR identity recovery</strong></p>
 <p>Users are instructed to keep their recovery seed safe and offline. Thus in the event of lost device, user will still be able to login with TREZOR after he recovers the seed on a new device. He may also use recovery and login through software, although the login through software means is not supported by TREZOR Connect at the moment.</p>

@@ -163,11 +163,11 @@
 <p><a class="reference external" href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">BIP39</a> - used to manage your recovery seed and recovery words.</p>
 <blockquote>
 <div><p><strong>Abstract</strong></p>
-<p>This BIP describes the implementation of a mnemonic code or mnemonic sentence &#8211; a group of easy to remember words &#8211; for the generation of deterministic wallets.</p>
+<p>This BIP describes the implementation of a mnemonic code or mnemonic sentence – a group of easy to remember words – for the generation of deterministic wallets.</p>
 <p>It consists of two parts: generating the mnemonic, and converting it into a binary seed. This seed can be later used to generate deterministic wallets using <a class="reference external" href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">BIP-0032</a> or similar methods.</p>
 <p><strong>Motivation</strong></p>
 <p>A mnemonic code or sentence is superior for human interaction compared to the handling of raw binary or hexadecimal representations of a wallet seed. The sentence could be written on paper or spoken over the telephone.</p>
-<p>This guide meant to be as a way to transport computer-generated randomness over human readable transcription. It&#8217;s not a way how to process user-created sentences (also known as brainwallet) to wallet seed.</p>
+<p>This guide meant to be as a way to transport computer-generated randomness over human readable transcription. It’s not a way how to process user-created sentences (also known as brainwallet) to wallet seed.</p>
 </div></blockquote>
 <p>Your TREZOR uses a mnemonic that is between 12 and 24 words.  These mnemonics correspond to recovery seeds of the following size:</p>
 <table border="1" class="docutils">
@@ -202,7 +202,7 @@
 </tr>
 </tbody>
 </table>
-<p>In order to convert a binary seed to a mnemonic, the full seed, along with its checksum, is broken into 11bit segments.  Each of these segments is represented by one of the 2048 words from the TREZOR&#8217;s mnemonic seed dictionary.</p>
+<p>In order to convert a binary seed to a mnemonic, the full seed, along with its checksum, is broken into 11bit segments.  Each of these segments is represented by one of the 2048 words from the TREZOR’s mnemonic seed dictionary.</p>
 </div>
 <div class="section" id="passphrase-encryption">
 <h2>Passphrase encryption<a class="headerlink" href="#passphrase-encryption" title="Permalink to this headline">¶</a></h2>
@@ -214,13 +214,13 @@
 <p><a class="reference external" href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">BIP32</a> - the cryptography behind how TREZOR generates the keys for your bitcoin accounts from the recovery seed.</p>
 <blockquote>
 <div><p><strong>Abstract</strong></p>
-<p>This document describes hierarchical deterministic wallets (or &#8220;HD Wallets&#8221;): wallets which can be shared partially or entirely with different systems, each with or without the ability to spend coins.</p>
+<p>This document describes hierarchical deterministic wallets (or “HD Wallets”): wallets which can be shared partially or entirely with different systems, each with or without the ability to spend coins.</p>
 <p>The specification is intended to set a standard for deterministic wallets that can be interchanged between different clients. Although the wallets described here have many features, not all are required by supporting clients.</p>
 <p>The specification consists of two parts. In a first part, a system for deriving a tree of keypairs from a single seed is presented. The second part demonstrates how to build a wallet structure on top of such a tree.</p>
 <p><strong>Motivation</strong></p>
-<p>The Bitcoin reference client uses randomly generated keys. In order to avoid the necessity for a backup after every transaction, (by default) 100 keys are cached in a pool of reserve keys. Still, these wallets are not intended to be shared and used on several systems simultaneously. They support hiding their private keys by using the wallet encrypt feature and not sharing the password, but such &#8220;neutered&#8221; wallets lose the power to generate public keys as well.</p>
+<p>The Bitcoin reference client uses randomly generated keys. In order to avoid the necessity for a backup after every transaction, (by default) 100 keys are cached in a pool of reserve keys. Still, these wallets are not intended to be shared and used on several systems simultaneously. They support hiding their private keys by using the wallet encrypt feature and not sharing the password, but such “neutered” wallets lose the power to generate public keys as well.</p>
 <p>Deterministic wallets do not require such frequent backups, and elliptic curve mathematics permit schemes where one can calculate the public keys without revealing the private keys. This permits for example a webshop business to let its webserver generate fresh addresses (public key hashes) for each order or for each customer, without giving the webserver access to the corresponding private keys (which are required for spending the received funds).</p>
-<p>However, deterministic wallets typically consist of a single &#8220;chain&#8221; of keypairs. The fact that there is only one chain means that sharing a wallet happens on an all-or-nothing basis. However, in some cases one only wants some (public) keys to be shared and recoverable. In the example of a webshop, the webserver does not need access to all public keys of the merchant&#8217;s wallet; only to those addresses which are used to receive customer&#8217;s payments, and not for example the change addresses that are generated when the merchant spends money. Hierarchical deterministic wallets allow such selective sharing by supporting multiple keypair chains, derived from a single root.</p>
+<p>However, deterministic wallets typically consist of a single “chain” of keypairs. The fact that there is only one chain means that sharing a wallet happens on an all-or-nothing basis. However, in some cases one only wants some (public) keys to be shared and recoverable. In the example of a webshop, the webserver does not need access to all public keys of the merchant’s wallet; only to those addresses which are used to receive customer’s payments, and not for example the change addresses that are generated when the merchant spends money. Hierarchical deterministic wallets allow such selective sharing by supporting multiple keypair chains, derived from a single root.</p>
 </div></blockquote>
 <p><a class="reference external" href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki">BIP44</a> - the hierarchy of the keys generated by TREZOR.</p>
 <blockquote>

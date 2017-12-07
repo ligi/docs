@@ -197,7 +197,7 @@
 </div>
 <div class="section" id="trezord-trezor-bridge">
 <h2>trezord (TREZOR Bridge)<a class="headerlink" href="#trezord-trezor-bridge" title="Permalink to this headline">¶</a></h2>
-<p>In order for websites, such as our own TREZOR Wallet, to talk with TREZOR, we developed so-called &#8220;bridge&#8221;, or trezord (short for TREZOR daemon). trezord starts a local webserver, to which both external applications and local applications can communicate.</p>
+<p>In order for websites, such as our own TREZOR Wallet, to talk with TREZOR, we developed so-called “bridge”, or trezord (short for TREZOR daemon). trezord starts a local webserver, to which both external applications and local applications can communicate.</p>
 <p>trezord is not intended for direct use by developers - it is still a little low-level, although more high-level than using USB HID directly. You should instead use trezor.js API, that uses trezord.</p>
 <p>However, the <em>end user</em> of the web app needs to install either trezord or Chrome Extension.</p>
 <p><a class="reference external" href="https://github.com/trezor/trezord">See more documentation on the github page</a>.</p>
@@ -214,7 +214,7 @@
 </div>
 <div class="section" id="low-level-hid-api">
 <h2>Low-level HID API<a class="headerlink" href="#low-level-hid-api" title="Permalink to this headline">¶</a></h2>
-<p>Developers can directly &#8220;talk&#8221; to TREZOR using USB HID API and Protobufs.</p>
+<p>Developers can directly “talk” to TREZOR using USB HID API and Protobufs.</p>
 <p>We recommend this approach only to developers that really know what they are doing (or want to write more high-level TREZOR libraries). Developers need to directly interact with messages to and from TREZOR and have to reimplement workflows, that are already present in the other APIs.</p>
 <p>For more info on low-level API, see:</p>
 <div class="toctree-wrapper compound">

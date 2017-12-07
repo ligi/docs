@@ -165,15 +165,15 @@ Messages are exchanged always in a purely synchronous fashion over <a class="ref
 These messages are serialized into binary format using <a class="reference external" href="https://en.wikipedia.org/wiki/Protocol_Buffers">Protocol Buffers</a>.</p>
 <div class="section" id="id1">
 <h2>USB HID<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<p>The SatoshiLabs Vendor ID is <code class="docutils literal"><span class="pre">0x534c</span></code> and TREZOR&#8217;s Device ID <code class="docutils literal"><span class="pre">0x0001</span></code>.</p>
-<p>If you&#8217;ve never worked with HID devices before, it may be helpful to take a look at <a class="reference external" href="https://github.com/trezor/python-trezor/blob/master/trezorlib/transport_hid.py">Python implementation</a> or <a class="reference external" href="https://github.com/trezor/trezor-android/blob/master/trezor-lib/src/main/java/com/satoshilabs/trezor/lib/TrezorManager.java">Java implementation</a> which establish a connection to TREZOR and reads and write to the device.</p>
+<p>The SatoshiLabs Vendor ID is <code class="docutils literal"><span class="pre">0x534c</span></code> and TREZOR’s Device ID <code class="docutils literal"><span class="pre">0x0001</span></code>.</p>
+<p>If you’ve never worked with HID devices before, it may be helpful to take a look at <a class="reference external" href="https://github.com/trezor/python-trezor/blob/master/trezorlib/transport_hid.py">Python implementation</a> or <a class="reference external" href="https://github.com/trezor/trezor-android/blob/master/trezor-lib/src/main/java/com/satoshilabs/trezor/lib/TrezorManager.java">Java implementation</a> which establish a connection to TREZOR and reads and write to the device.</p>
 </div>
 <div class="section" id="protobuf-definitions">
 <h2>Protobuf definitions<a class="headerlink" href="#protobuf-definitions" title="Permalink to this headline">¶</a></h2>
 <p>Protobuf message definitions are stored in the <a class="reference external" href="https://github.com/trezor/trezor-common/tree/master/protob">trezor-common</a> repository.  The following files are of interest:</p>
 <ul class="simple">
-<li><a class="reference external" href="https://github.com/trezor/trezor-common/blob/master/protob/messages.proto">messages.proto</a> &#8211; describes messages</li>
-<li><a class="reference external" href="https://github.com/trezor/trezor-common/blob/master/protob/types.proto">types.proto</a> &#8211; describes data structures sent within the messages</li>
+<li><a class="reference external" href="https://github.com/trezor/trezor-common/blob/master/protob/messages.proto">messages.proto</a> – describes messages</li>
+<li><a class="reference external" href="https://github.com/trezor/trezor-common/blob/master/protob/types.proto">types.proto</a> – describes data structures sent within the messages</li>
 </ul>
 </div>
 <div class="section" id="api-workflows">

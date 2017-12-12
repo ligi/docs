@@ -121,6 +121,7 @@ The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pul
    coinmap
    coinpayments
    copay
+   efolio
    electrum
    electrum-dash
    electrum-ltc

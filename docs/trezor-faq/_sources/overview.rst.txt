@@ -67,14 +67,18 @@ At this moment it is Bitcoin, Ethereum (+ all ERC-20 tokens), Ethereum Classic, 
 ================================= =========================================================
 Wallet Interfaces for TREZOR by Currency
 -------------------------------------------------------------------------------------------
-Bitcoin                           `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
-Litecoin                          `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
+Bitcoin (BTC)                     `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
+Litecoin (LTC)                    `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
 DASH                              `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
-Zcash                             `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
-Bitcoin Cash / Bcash              `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
-Ethereum                          `MyEtherWallet <../trezor-apps/mew.html>`_
-Ethereum Classic                  `MyEtherWallet <../trezor-apps/mew.html>`_
+Zcash (ZEC)                       `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
+Bitcoin Cash / Bcash (BCH)        `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
+Bitcoin Gold (BTG)                `TREZOR Wallet <../trezor-apps/trezorwallet.html>`_
+Ethereum (ETH)                    `MyEtherWallet <../trezor-apps/mew.html>`_
+Ethereum Classic (ETC)            `MyEtherWallet <../trezor-apps/mew.html>`_
 ERC-20 Tokens                     `MyEtherWallet <../trezor-apps/mew.html>`_
+Expanse (EXP)                     `MyEtherWallet <../trezor-apps/mew.html>`_
+UBIQ (UBQ)                        `MyEtherWallet <../trezor-apps/mew.html>`_
+NEM (XEM)                         NEM Nano Wallet
 Namecoin                          None
 Dogecoin                          None
 Bitcoin Testnet                   Custom TREZOR Wallet

@@ -39,9 +39,9 @@ TREZOR Setup in TREZOR Wallet
 
 The process of actual device setup is pretty much the same when using TREZOR Wallet, Chrome extension or TREZOR Manager for Android. Let's go through it when setting up in TREZOR Wallet (wallet.trezor.io).
 
-As TREZOR comes without firmware installed, to make sure you always have the newest version when setting up, the first thing you will be asked to do is to install the device system - firmware. Simply confirm it on the device, and verify the fingerprint after the process is done.
+As TREZOR comes without firmware installed, to make sure you always have the newest version when setting up, the first thing you will be asked to do is to install the device system - firmware. Simply confirm the installation and follow instructions on your screen. Please note, that with the new bootloader version, you will not be asked to confirm fingerprints during the initial setup. 
 
-After installing firmware, replug your TREZOR, and you should see a web page welcoming you and asking for a device label:
+After installing firmware, replug your TREZOR, and you will see a web page welcoming you and asking for a device label:
 
 .. image:: images/welcometosetup.png
 

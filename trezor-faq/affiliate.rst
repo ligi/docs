@@ -91,7 +91,7 @@ I see some rewards but I didn't receive any BTC yet. Why?
 ---------------------------------------------------------
 
 Your reward has to reach the Payout Threshold in order to be processed.
-Current Payout Threshold is 0.1 BTC.
+Current Payout Threshold is 0.02 BTC.
 
 Also, the rewards are waiting for at least 35 days to get `Confirmed <https://shop.trezor.io/user/profile/affiliate/#what-are-confirmed-rewards>`_.
 

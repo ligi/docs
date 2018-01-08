@@ -62,7 +62,7 @@ To find out more about these apps, please look for wallets and services with "Wa
 Which coins are currently supported?
 ------------------------------------
 
-At this moment it is Bitcoin, Ethereum (+ all ERC-20 tokens), Ethereum Classic, ZCash, Litecoin, Namecoin, Dogecoin, Dash and Bitcoin Testnet.
+At this moment it is Bitcoin, Litecoin, Dash, Zcash, Bitcoin Cash, Bitcoin Gold, Ethereum (+ all ERC-20 tokens), Ethereum Classic, Expanse, UBIQ, NEM, Namecoin, Dogecoin and Bitcoin Testnet. 
 
 ================================= =========================================================
 Wallet Interfaces for TREZOR by Currency

@@ -14,7 +14,7 @@ If you see following
 
 ::
 
-    Output folder: C:\Program Files (x86)\TREZOR Bridge 
+    Output folder: C:\Program Files (x86)\TREZOR Bridge
     Can't write: C:\Program Files (x86)\TREZOR Bridge\libcrypto-10.dll
 
 Please uninstall the previous version of TREZOR Bridge first and delete all remaining files, then install the new version.
@@ -103,9 +103,9 @@ TREZOR Bootloader 1.3.0: How to update firmware
 
 There is a small issue with TREZOR Bootloader 1.3.0, which prevents the device from being properly recognized if a user holds the device buttons pressed for a longer-than-necessary amount of time. The problem can be resolved by pressing the buttons only for a short amount of time (click) when entering Bootloader mode.
 
-1. Open https://wallet.trezor.io. 
+1. Open https://wallet.trezor.io.
 2. Plug micro-USB into TREZOR.
-3. Align USB-A to a port on your computer. 
+3. Align USB-A to a port on your computer.
 4. Plug the USB-A into your computer. At the same time, click both buttons on your TREZOR.
 5. The device should boot up in Bootloader mode, and the computer should recognize it.
 6. If the computer does not recognize your TREZOR, please try again. Timing is essential.

@@ -35,7 +35,7 @@ related to the imported account.
          :scale: 75 %
 
 You can get more infomation about particular transaction by simply selecting it from the list. To generate new receiving address, click on "+" icon at bottom right corner.
-If you need to watch another account, click on the settings icon at upper right corner and select Your XPUB and import a new account public key. 
+If you need to watch another account, click on the settings icon at upper right corner and select Your XPUB and import a new account public key.
 
 Properties and Features
 -----------------------

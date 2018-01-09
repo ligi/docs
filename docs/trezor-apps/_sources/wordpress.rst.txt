@@ -3,13 +3,13 @@ Wordpress
 
 .. image:: images/wordpress_logo.jpg
 .. image:: images/wordpress_logo3.jpg
-           
+
 What is Wordpress?
 ------------------
 
-`Wordpress <https://wordpress.org/plugins/trezor-connect-plugin>`_ is web software you can use to create a website or blog. 
+`Wordpress <https://wordpress.org/plugins/trezor-connect-plugin>`_ is web software you can use to create a website or blog.
 
-Thanks to **TREZOR Connect Plugin** by SatoshiLabs, administrators can now install Sign in with TREZOR 
+Thanks to **TREZOR Connect Plugin** by SatoshiLabs, administrators can now install Sign in with TREZOR
 feature with just a few clicks and enjoy passwordless and secure authentication to their Wordpress backend.
 
 Resources
@@ -42,14 +42,14 @@ Now any site administrator will be able to pair his TREZOR with his Wordpress ac
 Pairing TREZOR with account
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Before you can use your TREZOR for login, you have to pair it with your Wordpress account. 
+Before you can use your TREZOR for login, you have to pair it with your Wordpress account.
 
 - Under Users section, click on Your profile
 - Scroll down to TREZOR Connect and click on Sign in with TREZOR
 - Connect your TREZOR, confirm the action on your device and enter your PIN
 - Finish the pairing by entering your Wordpress password
 
-From now, you will be able to Log in with TREZOR and **never again worry that your password might be stolen by a keylogger**. 
+From now, you will be able to Log in with TREZOR and **never again worry that your password might be stolen by a keylogger**.
 Go ahead, log out and try it!
 
 .. image:: images/wordpress02.png

@@ -21,7 +21,7 @@ To make a purchase:
 
 Can I order a TREZOR from Amazon?
 ---------------------------------
-Sure, Another great place for customers is `amazon.com <https://www.amazon.com/s/%3Daps&field-keywords=trezor>`_. 
+Sure, Another great place for customers is `amazon.com <https://www.amazon.com/s/%3Daps&field-keywords=trezor>`_.
 
 
 How can I pay?
@@ -117,7 +117,7 @@ We will try to include it as soon as possible.
 How long does it take you to handle the order?
 ----------------------------------------------
 
-We process orders with the DHL Express shipping every working day and with the standard shipping 3 times a week (Monday, Wednesday, Friday - in December and especially before Christmas, there may be some delays due to the higher demand for our product). If an order is paid before 10:00 CET/CEST on the shipping day, we usually ship the order the same day. Otherwise, the estimated shipping is within two business days after the payment is confirmed. 
+We process orders with the DHL Express shipping every working day and with the standard shipping 3 times a week (Monday, Wednesday, Friday - in December and especially before Christmas, there may be some delays due to the higher demand for our product). If an order is paid before 10:00 CET/CEST on the shipping day, we usually ship the order the same day. Otherwise, the estimated shipping is within two business days after the payment is confirmed.
 
 
 What are the shipping options?
@@ -180,7 +180,7 @@ The investigation can be initiated if your package meets at least one of the fol
 How does the investigation work and how long does it take?
 ----------------------------------------------------------
 
-Investigation process takes up to 6 weeks since your request due to the processing time of post office in the country of origin. Communication between you and us is essential during the investigation period to keep information on delivery status up to date. 
+Investigation process takes up to 6 weeks since your request due to the processing time of post office in the country of origin. Communication between you and us is essential during the investigation period to keep information on delivery status up to date.
 
 
 I want to start the investigation. What should I do?

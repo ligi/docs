@@ -3,12 +3,12 @@ Password Manager
 
 Visit `TREZOR Password Manager <https://passwords.mytrezor.com>`_ pages to learn why you need to use this app.
 
-.. note:: TREZOR Password Manager is a Chrome extension currently released for public beta testing here: `TREZOR Password Manager <https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk>`_ Chrome/Chromium extension. 
+.. note:: TREZOR Password Manager is a Chrome extension currently released for public beta testing here: `TREZOR Password Manager <https://chrome.google.com/webstore/detail/trezor-password-manager/imloifkgjagghnncjkhggdhalmcnfklk>`_ Chrome/Chromium extension.
 
 Set up TREZOR Password Manager:
 -------------------------------
 
-You only need to perform this setup once. TREZOR Password Manager works with Chrome and cross-platform on your OSX, Windows, and Linux. 
+You only need to perform this setup once. TREZOR Password Manager works with Chrome and cross-platform on your OSX, Windows, and Linux.
 
 **1. Check if you have TREZOR Chrome extension (TCE)**
 
@@ -29,7 +29,7 @@ Please add the `TREZOR Password Manager <https://chrome.google.com/webstore/deta
 3.2. Give your TREZOR permission to create a folder in your Dropbox to store all the passwords in and confirm using the Dropbox account.
 
 
-**4. Connect Your TREZOR device and enter your PIN** 
+**4. Connect Your TREZOR device and enter your PIN**
 
 Learn how to enter PIN with TREZOR :doc:`enteringyourpin`
 
@@ -45,18 +45,18 @@ To be more visual, we created some simple GIFs for you:
 Using TPM with Google Drive
 ---------------------------
 
-Recently, we've taken next step towards the better and diverse TPM manager by integrating the Google Drive. At first, our customers were forced to use or create a Dropbox account. Now, you can use either Dropbox or Google Drive instead. 
+Recently, we've taken next step towards the better and diverse TPM manager by integrating the Google Drive. At first, our customers were forced to use or create a Dropbox account. Now, you can use either Dropbox or Google Drive instead.
 
-Connecting your TPM to Google Drive is not very different from the Dropbox. 
+Connecting your TPM to Google Drive is not very different from the Dropbox.
 
 .. image:: images/TPM_GDrive.gif
 
 Tags
 ----
 
-Tags are used to filter and find entries easily. You can create, and remove tags as you wish. 
+Tags are used to filter and find entries easily. You can create, and remove tags as you wish.
 
-You can see the overview of your tags in the left pane. You can edit the name and the icon of the tag. But let's start with creating a new page first. 
+You can see the overview of your tags in the left pane. You can edit the name and the icon of the tag. But let's start with creating a new page first.
 
 .. image:: images/pm-newtag.png
 
@@ -74,7 +74,7 @@ If you wish to edit an existing tag, just click on its name and edit or remove t
 Add a Password Entry
 --------------------
 
-To add a new password please click "Add entry" on the top of the page. 
+To add a new password please click "Add entry" on the top of the page.
 
 .. image:: images/pm-newentry.png
 
@@ -109,9 +109,9 @@ TREZOR Password Manager in Action
 
 **1. Open to login**
 
-Click on the entry name and a new tab with pre-filled user credentials will open. You will be asked to confirm this action on your TREZOR first. 
+Click on the entry name and a new tab with pre-filled user credentials will open. You will be asked to confirm this action on your TREZOR first.
 
-.. note:: Please keep in mind that opening a new tab depends on your browser or mouse settings and therefore your Password Manager might behave differently. 
+.. note:: Please keep in mind that opening a new tab depends on your browser or mouse settings and therefore your Password Manager might behave differently.
 
 .. image:: images/pm-openandloginapproval.png
 
@@ -147,7 +147,7 @@ Remember to have your TREZOR connected, otherwise, it won't work. (Hint: the lit
 How do TREZOR and Dropbox work together?
 ----------------------------------------
 
-It's quite simple. TREZOR Password Manager creates a folder “/Apps/TREZOR Password Manager/” in your Dropbox and stores each password entry in a separate file and encrypted by your TREZOR device. 
+It's quite simple. TREZOR Password Manager creates a folder “/Apps/TREZOR Password Manager/” in your Dropbox and stores each password entry in a separate file and encrypted by your TREZOR device.
 
 We recommend you to back up those Dropbox files for the case you'd lose access to your Dropbox.
 
@@ -157,7 +157,7 @@ All files are `encrypted using keys derived from your TREZOR <https://github.com
 Planned Improvements
 --------------------
 
-In the future, we plan to add the Import/Export feature and a direct login to Dropbox with TREZOR. 
+In the future, we plan to add the Import/Export feature and a direct login to Dropbox with TREZOR.
 
 
 

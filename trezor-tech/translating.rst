@@ -38,9 +38,9 @@ You will also find strings which contain placeholders and HTML tags. In that cas
 
 Please translate "**changed from**" and "**to**" only. It does not matter where these special strings are in the translated string, as long as you keep them spelled properly. If your language requires a specific word order, you may shuffle them. Do not, however, split the placeholder tags.
 
-Please report any inconsistencies, unclarities or mistakes in the English language (source) or in the UI. 
+Please report any inconsistencies, unclarities or mistakes in the English language (source) or in the UI.
 
-* To report any particular issue or to suggest specific improvements, use the Comments tab during translation. 
+* To report any particular issue or to suggest specific improvements, use the Comments tab during translation.
 * To report a general issue, please use the `Discussions panel. <https://crowdin.com/project/trezor-wallet/discussions>`_
 
 In case of any issues, difficulties or questions please check the `CrowdIn Documentation <https://support.crowdin.com/online-editor/>`_ or contact us via `Support <https://satoshilabs.kayako.com/conversation/new/2>`_

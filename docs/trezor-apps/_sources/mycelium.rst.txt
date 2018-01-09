@@ -1,7 +1,7 @@
 Mycelium
 ========
 
-.. image:: images/mycelium_logo.png 
+.. image:: images/mycelium_logo.png
 
 
 What is Mycelium?
@@ -25,10 +25,10 @@ Importing account from TREZOR
 -----------------------------
 
 To import a TREZOR account into Mycelium, go to Accounts tab, select Add New Account (key icon) > Advanced > TREZOR.
-Now, connect your TREZOR via OTG cable and confirm the access. Enter your TREZOR PIN (and also passphrase, if you have previously enabled passphrase feature) 
+Now, connect your TREZOR via OTG cable and confirm the access. Enter your TREZOR PIN (and also passphrase, if you have previously enabled passphrase feature)
 and wait until Mycelium loads all your TREZOR accounts.
 
-Note that PIN is required only once per TREZOR connection session. 
+Note that PIN is required only once per TREZOR connection session.
 
 .. image:: images/mycelium01.png
 .. image:: images/mycelium02.png
@@ -46,7 +46,7 @@ but **you cannot send any transaction**.
 Sending transaction from imported account
 -----------------------------------------
 
-To send transaction from TREZOR account you need to connect your TREZOR. Select Send from Balance tab and enter recipient address and amount. 
+To send transaction from TREZOR account you need to connect your TREZOR. Select Send from Balance tab and enter recipient address and amount.
 Hit the Send button, check the transaction on TREZOR screen and confirm it.
 
 .. image:: images/mycelium07.png
@@ -65,13 +65,13 @@ Importing watch-only accounts from TREZOR Wallet
 
 If you want to use Mycelium as a watch-only wallet for your TREZOR, you can import accounts directly from TREZOR Wallet without connecting the device.
 
-In `TREZOR Wallet <https://wallet.trezor.io>`_, click on the name of your TREZOR and in Basic settings, click on Show XPUBs. 
+In `TREZOR Wallet <https://wallet.trezor.io>`_, click on the name of your TREZOR and in Basic settings, click on Show XPUBs.
 Select account you want to import into Mycelium to reveal QR code with account public key.
 
 .. image:: images/coinsimple-trezorwallet01.png
 
-In Mycelium, go to Accounts tab, select Add New Account (key icon) > Advanced > Scan and scan QR code from TREZOR Wallet to import the account. 
-Give it a name and wait until Mycelium synchronizes it. 
+In Mycelium, go to Accounts tab, select Add New Account (key icon) > Advanced > Scan and scan QR code from TREZOR Wallet to import the account.
+Give it a name and wait until Mycelium synchronizes it.
 
 After that, you will be able to check balance, transaction history and display next unsused receiving address.
 

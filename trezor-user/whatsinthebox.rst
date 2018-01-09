@@ -20,7 +20,7 @@ Check the security seal
 Make sure that couple of the silver security seals are unbroken to ensure you are working with an authentic TREZOR device. Your device should be also wrapped in a thin plastic foil and the package itself carefully sealed with a strong glue.
 
   .. image:: images/IMG_1339.jpg
-  
+
   Since the last batch we have changed the packaging of the TREZOR. Here are the changes described:
 
 - TREZOR logo does not say "TREZOR The Bitcoin Safe", but "TREZOR" only the package is slightly bigger (100 x 100 x 13 mm)

@@ -44,8 +44,8 @@ To see the full list, please check out our `TREZOR Apps <../trezor-apps/index.ht
 Which wallets are compatible with TREZOR recovery seed?
 -------------------------------------------------------
 
-In case your TREZOR is not available you can still recover your bitcoins using your :download:`recovery seed <../trezor-user/images/recovery_card.pdf>` 
-and a compatible wallet like 
+In case your TREZOR is not available you can still recover your bitcoins using your :download:`recovery seed <../trezor-user/images/recovery_card.pdf>`
+and a compatible wallet like
 `Mycelium <https://play.google.com/store/apps/details?id=com.mycelium.wallet>`_ or
 `Electrum <https://electrum.org/#download>`_.
 Check out our `TREZOR Apps <../trezor-apps/index.html#recovering-funds-without-trezor-device>`_ for the full list of wallets compatible with the recovery seed.
@@ -54,7 +54,7 @@ Check out our `TREZOR Apps <../trezor-apps/index.html#recovering-funds-without-t
 Which wallets or services can import TREZOR account public keys (xpub)?
 -----------------------------------------------------------------------
 
-There is a growing number of wallets and online services, which you can use to **watch your TREZOR account balances** or **receive bitcoins directly into your TREZOR** without connecting the device. 
+There is a growing number of wallets and online services, which you can use to **watch your TREZOR account balances** or **receive bitcoins directly into your TREZOR** without connecting the device.
 These apps cannot spend your coins but can check balances online or generate new receiving addresses for you.
 
 To find out more about these apps, please look for wallets and services with "Watch-only mode" feature icon :icon:`eye-slash` in `TREZOR Apps <../trezor-apps/index.html>`_
@@ -62,7 +62,7 @@ To find out more about these apps, please look for wallets and services with "Wa
 Which coins are currently supported?
 ------------------------------------
 
-At this moment it is Bitcoin, Litecoin, Dash, Zcash, Bitcoin Cash, Bitcoin Gold, Ethereum (+ all ERC-20 tokens), Ethereum Classic, Expanse, UBIQ, NEM, Namecoin, Dogecoin and Bitcoin Testnet. 
+At this moment it is Bitcoin, Litecoin, Dash, Zcash, Bitcoin Cash, Bitcoin Gold, Ethereum (+ all ERC-20 tokens), Ethereum Classic, Expanse, UBIQ, NEM, Namecoin, Dogecoin and Bitcoin Testnet.
 
 ================================= =========================================================
 Wallet Interfaces for TREZOR by Currency

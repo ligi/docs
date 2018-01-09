@@ -6,7 +6,7 @@ Osclass plugin
 What is Osclass?
 ------------------
 
-`Osclass <https://osclass.org>`_ is an open source platform that allows you to easily create a `classifieds site <https://osclass.org/showcase>`_ without any technical knowledge. 
+`Osclass <https://osclass.org>`_ is an open source platform that allows you to easily create a `classifieds site <https://osclass.org/showcase>`_ without any technical knowledge.
 Thanks to `TREZOR Connect plugin <https://market.osclass.org/plugins/security/trezor-connect_242>`_, admins can now add **Sign in with TREZOR** button to their sites with just a few clicks and
 enable their users to login securely without password.
 
@@ -49,7 +49,7 @@ Finally, enter your account password to complete the procedure.
 .. image:: images/osclass04.png
 
 
-From now, you will be able to Sign in with TREZOR and **never again worry that your password might be stolen by a keylogger**. 
+From now, you will be able to Sign in with TREZOR and **never again worry that your password might be stolen by a keylogger**.
 Go ahead and try it!
 
 .. image:: images/osclass03.png

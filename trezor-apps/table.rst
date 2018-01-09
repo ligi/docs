@@ -7,8 +7,8 @@ Wallets supporting TREZOR
 ================== === === === === === === === === === === === === === === === === === ===
 Feature            Stp Fmw wip Rry Imp Snd PIN Eye Cct Lbl Sgn Pse Acs Scr Lgn Mgt
 ================== === === === === === === === === === === === === === === === === === ===
-Armory             
-Copay             
+Armory
+Copay
 Electrum
 GreenAddress        ✔   x   x   x   ✔   ✔   ✔   x   ✔   ✔   x   ✔   x   x   ✔   x
 Mycelium            x   x   x   x   x   ✔   ✔   x   x   x   x   ✔   ✔   x   x   x
@@ -35,9 +35,9 @@ Services supporting TREZOR
 ==========================
 
 ================== === === === === === === === === === === === === === === === === === ===
-Feature            
+Feature
 ================== === === === === === === === === === === === === === === === === === ===
-Bitstamp           
+Bitstamp
 Bitstock
 Slush pool
 ================== === === === === === === === === === === === === === === === === === ===

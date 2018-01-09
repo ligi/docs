@@ -27,4 +27,6 @@ Now press the right button on your TREZOR to confirm the update.  Wait a few min
 
 .. note:: **Windows Users:** If the system does not recognize the device after the update, go to *Device Manager* and force the drivers to update. With FIDO implemented, Windows regards TREZOR as a new device, and sometimes drivers do not update automatically. For more information please visit our `Troubleshooting <https://doc.satoshilabs.com/trezor-user/troubleshooting.html#windows-os-trezor-wallet-doesnt-recognize-trezor-after-update-to-firmware-140-or-later>`_ section.
 
+.. note:: If you see on TREZOR display only the message about Loader 1.3.0 with the serial number when attempting to update and the process is not starting, please visit our `Troubleshooter <https://trezor.io/troubleshooter/#81>`_ or the corresponding `section <http://doc.satoshilabs.com/trezor-user/troubleshooting.html#firmware-update-went-wrong>`_ in the manual.
+
 .. note:: If the update somehow fails or you accidentally unplug your TREZOR during the update there is no need to worry.  Run the update over again by plugging your TREZOR in with both buttons pressed down.  You will need to :doc:`forget your old device<forgetting>` and run :doc:`TREZOR recovery<recovery>`.

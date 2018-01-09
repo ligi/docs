@@ -21,7 +21,7 @@ Type in the message text into the **Message** field, then copy & paste the parti
 
 **2. Confirming the signature on your TREZOR**
 
-Check the text of the message on your TREZOR's display. If the text is correct, press the right button on your TREZOR to 'Confirm'.  
+Check the text of the message on your TREZOR's display. If the text is correct, press the right button on your TREZOR to 'Confirm'.
 
 .. image:: images/signmessageconfirmation.jpg
 
@@ -38,8 +38,8 @@ In order to verify a message, select the Account at TREZOR Wallet and press **Si
 .. image:: images/signandverify_page.png
 
 **1. Verifying a message**
- 
-Copy & paste the signed message into the **Message** field, then paste the bitcoin address the message has been signed with into the **Address** field, and finally, paste the signature into the **Signature** field. 
+
+Copy & paste the signed message into the **Message** field, then paste the bitcoin address the message has been signed with into the **Address** field, and finally, paste the signature into the **Signature** field.
 Click on 'Verify'.
 
 .. image:: images/verifymessage.png

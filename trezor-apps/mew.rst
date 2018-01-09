@@ -18,7 +18,7 @@ TREZOR supports Ethereum since firmware version 1.4.0. Please make sure your TRE
 
 This guide assumes that your TREZOR has been already initialized, i.e. you have been using it with TREZOR Wallet, Electrum or Mycelium before. If not please `initialize your device first <https://trezor.io/start>`_.
 
-Under no circumstances, please do NOT “Generate a new wallet” on MyEthereumWallet. Your Ethereum wallets are generated directly on your TREZOR, when you connect it to MyEthereumWallet by following the guide below. 
+Under no circumstances, please do NOT “Generate a new wallet” on MyEthereumWallet. Your Ethereum wallets are generated directly on your TREZOR, when you connect it to MyEthereumWallet by following the guide below.
 
 Viewing Ethereum Wallet
 -----------------------

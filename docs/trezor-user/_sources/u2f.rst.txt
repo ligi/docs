@@ -9,7 +9,7 @@ However, some methods of 2FA are inherently insecure. The most popular 2FA imple
 
 Starting with firmware 1.4.0, TREZOR officially supports the U2F specification. After updating your device firmware, you can start using TREZOR as your 2nd factor authentication token with services such as Google or Dropbox. Check out services using U2F at dongleauth.info.
 
-One further improvement of TREZOR on top of U2F is that TREZOR users can truly verify what they are about to authorize via the on-device display. 
+One further improvement of TREZOR on top of U2F is that TREZOR users can truly verify what they are about to authorize via the on-device display.
 
 .. note:: You can find a list of websites which support U2F at `dongleauth.info <http://www.dongleauth.info/>`_.
 

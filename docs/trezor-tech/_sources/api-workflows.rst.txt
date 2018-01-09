@@ -73,7 +73,7 @@ when signing:
 
 If `show_display` is set the address is displayed to the user.  In any
 case, it is also sent to the computer with an `Address` response.
-  
+
 GetPublicKey
 ------------
 

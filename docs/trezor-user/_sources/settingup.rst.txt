@@ -1,9 +1,9 @@
 Setting up your TREZOR device
 =============================
 
-The TREZOR works with almost any computer that has a USB port or with Android devices with USB Host support. 
+The TREZOR works with almost any computer that has a USB port or with Android devices with USB Host support.
 
-There are four options to initialize the TREZOR device. 
+There are four options to initialize the TREZOR device.
 
 1. Online at TREZOR Wallet
 --------------------------
@@ -12,7 +12,7 @@ To allow the `TREZOR Wallet <https://wallet.trezor.io>`_ wallet to communicate w
 
 .. note:: We also provide a `Chrome extension <https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj>`_, which works on all platforms. However, Linux users need to perform additional configuration of their system, please see :doc:`Setting up Chrome extension on Linux <settingupchromeonlinux>`.
 
-Once you've got the TREZOR Bridge or TREZOR Chrome extension installed go to `TREZOR Wallet <https://wallet.trezor.io>`_ again.  
+Once you've got the TREZOR Bridge or TREZOR Chrome extension installed go to `TREZOR Wallet <https://wallet.trezor.io>`_ again.
 
 2. TREZOR Chrome extension
 --------------------------

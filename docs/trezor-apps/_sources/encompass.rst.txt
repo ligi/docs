@@ -10,4 +10,4 @@ Unfortunately development on this project stalled in April 2015 and their websit
 Although you can still `download / fork / modify / compile <https://github.com/mazaclub/encompass>`_ Encompass, we **STRONGLY DISCOURAGE** users from putting money into unmaintained software.
 
 See `Using TREZOR With Bitcoin and Altcoin Wallets <index.html#using-trezor-with-bitcoin-and-altcoin-wallets>`_ for a list of alternatives.
- 
+

@@ -8,8 +8,8 @@ Thanks to the great work by `Roman Zeyde <https://github.com/romanz>`_ TREZOR fi
 What is OpenSSH?
 ----------------
 
-OpenSSH is the premier connectivity tool for remote login with the SSH protocol. It encrypts all traffic to eliminate eavesdropping, connection hijacking, and other attacks. In addition, OpenSSH provides a large suite of secure tunneling capabilities, several authentication methods, and sophisticated configuration options. 
-  
+OpenSSH is the premier connectivity tool for remote login with the SSH protocol. It encrypts all traffic to eliminate eavesdropping, connection hijacking, and other attacks. In addition, OpenSSH provides a large suite of secure tunneling capabilities, several authentication methods, and sophisticated configuration options.
+
 Thanks to **TREZOR SSH Agent** administrators can now install this OpenSSH compatible agent easily and enjoy passwordless and secure authentication to their servers.
 
 Resources

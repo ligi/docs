@@ -4,7 +4,7 @@ Recovery
 What happens if I forget my PIN?
 --------------------------------
 
-If you forget your PIN, you can reset it by wiping your TREZOR :doc:`in advanced settings<advanced_settings>` and using the recovery process described below. 
+If you forget your PIN, you can reset it by wiping your TREZOR :doc:`in advanced settings<advanced_settings>` and using the recovery process described below.
 
 Recovery process
 ----------------

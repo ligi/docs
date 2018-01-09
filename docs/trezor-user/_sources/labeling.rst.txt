@@ -8,9 +8,9 @@ By connecting TREZOR Wallet with Dropbox cloud storage, you can enjoy all these 
 - **Comment transactions**
 
 This is a great way to organize your bitcoin wallet and keep a memory of your transaction activity.
-Moreover, all your private data are ultimately secured and easily available from any computer. All the information you add is automatically **encrypted by a key derived from your TREZOR device** and uploaded to your personal Dropbox folder. 
+Moreover, all your private data are ultimately secured and easily available from any computer. All the information you add is automatically **encrypted by a key derived from your TREZOR device** and uploaded to your personal Dropbox folder.
 
-.. image:: images/labeling-example.png 
+.. image:: images/labeling-example.png
 
 Set up labeling: Connect Dropbox with your TREZOR
 -------------------------------------------------
@@ -52,17 +52,17 @@ Hover over the Account name area and click on the **tag icon**, enter a new acco
 Label receiving addresses
 -------------------------
 
-Labeling receiving addresses helps you identify incoming payments easily. You can label previously used addresses as well as the new ones and assign them to a specific purpose.  Simply type your label into the field next to the freshly created address and hit the **Save icon**. 
+Labeling receiving addresses helps you identify incoming payments easily. You can label previously used addresses as well as the new ones and assign them to a specific purpose.  Simply type your label into the field next to the freshly created address and hit the **Save icon**.
 
 .. image:: images/labeling-receive.png
 
-Whenever someone sends you a payment to an address that you labeled “For cleaning”, you will see this label in your Transactions history. 
+Whenever someone sends you a payment to an address that you labeled “For cleaning”, you will see this label in your Transactions history.
 
 
 Comment transactions
 --------------------
 
-Adding comments when sending transaction helps you keep track of your expenses. 
+Adding comments when sending transaction helps you keep track of your expenses.
 Let’s say you want to send money to two separate addresses (Alice and Bob) in one transaction. You can add a comment to every single address (output).
 
 .. image:: images/labeling-send.png

@@ -18,7 +18,7 @@ Just how easy (or hard) is it to get some bitcoins out of a stolen TREZOR?
 Brute forcing the TREZOR PIN
 ----------------------------
 
-Your TREZOR is protected by a PIN code, which can be up to 9 digits between 1 and 9.  There are 6561 possible 4 digit PINs for the TREZOR.  If you choose a good PIN, it will take hundreds of thousands of guesses to guess your PIN.  Each time you enter a wrong PIN, the wait time increases by a power of 2.  After the first few failures, you have to wait several seconds before you'll be able to try another PIN. Trying the `top 15 PINs <http://www.datagenetics.com/blog/september32012/>`_ would take about 18 hours. After this, the device wipes itself. 
+Your TREZOR is protected by a PIN code, which can be up to 9 digits between 1 and 9.  There are 6561 possible 4 digit PINs for the TREZOR.  If you choose a good PIN, it will take hundreds of thousands of guesses to guess your PIN.  Each time you enter a wrong PIN, the wait time increases by a power of 2.  After the first few failures, you have to wait several seconds before you'll be able to try another PIN. Trying the `top 15 PINs <http://www.datagenetics.com/blog/september32012/>`_ would take about 18 hours. After this, the device wipes itself.
 
 The number of PIN entry failures is stored in the TREZOR's memory.  This means that power cycling the TREZOR won't magically make the wait time go to zero again.  The best you can do by turning the TREZOR on and off again is make the timer start over again.
 
@@ -49,7 +49,7 @@ The TREZOR's chassis is sealed using ultrasound. Opening the TREZOR without dest
 What if my computer that runs my bitcoin wallet is stolen?
 ==========================================================
 
-If your computer gets stolen, just plug your TREZOR to another computer and you'll get your account balance and transaction history. Might your TREZOR get lost as well, simply recover the seed from your paper backup to a new TREZOR device or a TREZOR compatible wallet software. 
+If your computer gets stolen, just plug your TREZOR to another computer and you'll get your account balance and transaction history. Might your TREZOR get lost as well, simply recover the seed from your paper backup to a new TREZOR device or a TREZOR compatible wallet software.
 
 
 What happens if my recovery seed is stolen?
@@ -61,7 +61,7 @@ You need to keep your recovery seed safe from theft.  If your recovery seed is s
 What happens if the SatoshiLabs servers are hacked and the firmware signing key is stolen?
 ==========================================================================================
 
-First off, this won't happen ;). The SatoshiLabs master key is kept very safe. Moreover, it takes more than one key to sign the firmware. 
+First off, this won't happen ;). The SatoshiLabs master key is kept very safe. Moreover, it takes more than one key to sign the firmware.
 
 However, you don't need to rely on the SatoshiLabs signature.  You can `verify the build yourself <https://github.com/trezor/trezor-mcu/blob/master/README.md>`_.  Our hope is that a few trusted TREZOR users will make a habit of verifying firmware checksums.  If you are concerned about this, we suggest making a habit of checking `our blog <https://blog.trezor.io>`_ or social news channels such as `reddit <https://www.reddit.com/r/TREZOR>`_ before applying any updates.  If there ever was a problem with the firmware not matching the source code, you can be sure someone will have written about it.
 
@@ -71,7 +71,7 @@ You don't need to worry about the firmware being updated by a computer virus.  Y
 What happens if the SatoshiLabs shuts down?
 ===========================================
 
-There are no such plans because we love bitcoin, but even if we had to close down, there's nothing to worry about. 
+There are no such plans because we love bitcoin, but even if we had to close down, there's nothing to worry about.
 You can use your TREZOR together with other BIP32, BIP39 and BIP44 `compatible wallets <../trezor-apps/index.html>`_. Since our code is opensource, developers from around the world can maintain it and add new functionalities.
 
 
@@ -137,7 +137,7 @@ We did our best to protect the MCU against glitching (e.g. when we check the PIN
 What if the RNG is flawed?
 ==========================
 
-TREZOR uses randomness from both its own internal Random Number Generator (RNG) and from the host computer. The device then combines this randomness by XOR-ing, making sure that even if the entropy supplied by one source is flawed, it will still remain truly random. 
+TREZOR uses randomness from both its own internal Random Number Generator (RNG) and from the host computer. The device then combines this randomness by XOR-ing, making sure that even if the entropy supplied by one source is flawed, it will still remain truly random.
 
 
 

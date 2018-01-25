@@ -15,7 +15,7 @@ It is possible to disable PIN protection using the Disable PIN button, however, 
 Using passphrase encrypted seeds
 --------------------------------
 
-See section in Security best practices
+See section in `Security best practices <https://doc.satoshilabs.com/trezor-user/securitybestpractices.html#using-passphrase-encrypted-seeds>`_ section.
 
 Multi-passphrase encryption (hidden wallets)
 --------------------------------------------

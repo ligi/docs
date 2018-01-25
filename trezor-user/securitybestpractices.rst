@@ -43,3 +43,14 @@ Where to keep your recovery card
 
  - In a locked drawer, away from water and fire
  - Someplace where your family members are likely to find it after you pass away but not before then
+
+Using passphrase encrypted seeds
+--------------------------------
+
+In addition to a PIN, it is possible to add a passphrase to your TREZOR.  This has the advantage of making your TREZOR impervious to physical attack.  Even if your TREZOR were to be stolen and the chip examined under an electron microscope to discover your recovery seed, your bitcoins would still be safe!  A passphrase can be any word or any set of letters that you might use as a password.  Your passphrase should be memorable, though.  You typically would not write it down anywhere, to eliminate any possibility of it being discovered.
+
+One limitation of the passphrase approach is that you have to enter your passphrase into the computer that you use with your TREZOR.  For this reason, you should not be tempted to disable your PIN even if you use a passphrase as well!
+
+The flip side to this extreme level of security is that if you forget your passphrase your bitcoins are lost.  Really lost!
+
+.. note:: If you have stored some funds in your TREZOR before setting up the passphrase encryption, they will not appear after enabling the passphrase. But don't worry, they are not lost. You can  access them by entering a empty passphrase.

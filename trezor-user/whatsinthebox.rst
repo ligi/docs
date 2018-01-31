@@ -1,9 +1,13 @@
 What's in the box?
 ==================
 
-So today you got your TREZOR.  Congratulations!  In the small box with the shiny TREZOR seal on it you should find:
+So today you got your TREZOR. Congratulations! The box is protected by two silver seals on both sides. Make sure that both of the security seals are unbroken. Your device should be also wrapped in a thin plastic foil and the package itself carefully sealed with a strong glue. 
+
+Here is how the box looks like: 
 
 .. image:: images/IMG_1344.jpg
+
+In the box you will find:
 
 - Your new TREZOR device
 - USB cable for your TREZOR
@@ -12,24 +16,8 @@ So today you got your TREZOR.  Congratulations!  In the small box with the shiny
 - User manual
 - Set of stickers (4 pcs)
 
+.. image:: images/TRZ_recovery_booklet.jpg
+
 .. note:: Your TREZOR doesn't have any batteries in it. So you won't see anything on the screen until you plug it in your computer or phone.
 
-Check the security seal
------------------------
-
-Make sure that couple of the silver security seals are unbroken to ensure you are working with an authentic TREZOR device. Your device should be also wrapped in a thin plastic foil and the package itself carefully sealed with a strong glue.
-
-  .. image:: images/IMG_1339.jpg
-
-  Since the last batch we have changed the packaging of the TREZOR. Here are the changes described:
-
-- TREZOR logo does not say "TREZOR The Bitcoin Safe", but "TREZOR" only the package is slightly bigger (100 x 100 x 13 mm)
-- There is less text on the package
-- Sticker with barcode, UPC code and product name is on every package
-- Sticker with a small QR code containing manufacturing batch information
-- In the instructions is written to go to trezor.io/start instead of mytrezor.com
-- There are two holographic stickers in this batch (one on each side)
-- Starting with this batch TREZOR contains bootloader 1.3.2 and no firmware. This is done so that you can be sure your TREZOR  will be always running the correct FW, and that the first FW will be the most up-to-date one. (In any case, if your TREZOR runs an unofficial firmware, it will display a warning on boot up.)
-- Device buttons built-in test is available since bootloader version 1.3.0., just press a button for 2+ seconds and the indicator on the screen should show up.
-
-Go ahead and plug your TREZOR in now.  You should see the glowing TREZOR lock appear on the screen.  Now move on to :doc:`Setting up your TREZOR device <settingup>`.
+Now go ahead and plug in your TREZOR.  You will see the glowing TREZOR lock appear on the screen. For setting up your new TREZOR, please, move on to :doc:`Setting up your TREZOR device <settingup>`.

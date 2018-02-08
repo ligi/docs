@@ -4,7 +4,7 @@ Affiliate Program
 Why should I join the affiliate program?
 ----------------------------------------
 
-Our affiliate program let's you share the success of our product and earn bitcoins by promoting it, while at the same time you help to secure the Bitcoin world. You are free to refer your blog readers, site visitors, friends, etc.
+Our affiliate program lets you share the success of our product and earn bitcoins by promoting it, while at the same time you help to secure the Bitcoin world. You are free to refer your blog readers, site visitors, friends, etc.
 
 Bitcoin is an emerging niche market and our product is currently one of the safest ways to store and use bitcoins. This in combination leads to a very high conversion rates if marketed correctly.
 
@@ -101,7 +101,7 @@ After your rewards turn to Confirmed and reach the payout threshold, we manually
 How do you calculate my rewards?
 --------------------------------
 
-We calculate your rewards as a percentage from the final sales price in BTC at the moment of the purchase. Your current percentage is shown in the Summary on this page as *Commissions (%)*.
+We calculate your rewards as a percentage of the final sales price in BTC at the moment of the purchase. Your current percentage is shown in the Summary on this page as *Commissions (%)*.
 
 On rare occasions, you might see a negative Reward in your Transaction history. This happens when a client returns the order and requests a refund.
 
@@ -110,7 +110,7 @@ What are Confirmed rewards?
 ---------------------------
 
 Confirmed Rewards are Rewards for non-cancelled and non-refunded Orders older than 35 days.
-We are waiting for 35 days because the clients have a no questions asked return right that can be applied during 15 days after receiving their order. The delivery usually takes between 2 days to 2 or 3 weeks.
+We are waiting for 35 days because the clients have a no questions asked return right that can be applied within 15 days after receiving their order. The delivery usually takes between 2 days to 2 or 3 weeks.
 
 
 What are Total pending or Unconfirmed Rewards?

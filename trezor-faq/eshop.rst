@@ -54,7 +54,7 @@ Yes! At the moment you can pay either with BTC or Credit card. However getting b
 - `Coinjar.com <https://Coinjar.com>`_
 - `Expresscoin.com <https://Expresscoin.com>`_
 
-.. note:: If you buy bitcoin from an exchange, please transfer coins to some standard wallet first (Mycelium, Electrum, Jaxx, Copay..) and then process the payment from there. Do not use the withdrawal from exchange as a payment for your order please.
+.. note:: If you buy bitcoin from an exchange, please transfer coins to some standard wallet first (Mycelium, Electrum, Jaxx, Copay..) and then process the payment from there. Do not use the withdrawal from an exchange as a payment for your order, please.
 
 4. Finding other means of exchange in your area
 
@@ -72,7 +72,7 @@ Each order is assigned a unique payment address. Once your payment is validated 
 My order got cancelled, why is that?
 ------------------------------------
 
-In general the orders are valid for 24 hours. Our customers sometimes create more orders at the same time without even noticing it. Please log into your `user account at TREZOR Shop <https://shop.trezor.io/user/profile>`_ and check your orders. It is possible you have multiple orders created at about the same time and one of them is paid, other(s) are cancelled. In such case you don't need to worry, your paid order will be shipped as usual and the notification email is regarding the other order(s). You can compare the order token in your user account and notification email.
+In general, the orders are valid for 24 hours. Our customers sometimes create more orders at the same time without even noticing it. Please log into your `user account at TREZOR Shop <https://shop.trezor.io/user/profile>`_ and check your orders. It is possible you have multiple orders created at about the same time and one of them is paid, other(s) are cancelled. In such case you don't need to worry, your paid order will be shipped as usual and the notification email is regarding the other order(s). You can compare the order token in your user account and notification email.
 
 Are you sure you created and paid only one order and it still got cancelled? This can happen for various reasons:
 

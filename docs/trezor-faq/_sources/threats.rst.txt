@@ -63,7 +63,7 @@ What happens if the SatoshiLabs servers are hacked and the firmware signing key 
 
 First off, this won't happen ;). The SatoshiLabs master key is kept very safe. Moreover, it takes more than one key to sign the firmware.
 
-However, you don't need to rely on the SatoshiLabs signature.  You can `verify the build yourself <https://github.com/trezor/trezor-mcu/blob/master/README.md>`_.  Our hope is that a few trusted TREZOR users will make a habit of verifying firmware checksums.  If you are concerned about this, we suggest making a habit of checking `our blog <https://blog.trezor.io>`_ or social news channels such as `reddit <https://www.reddit.com/r/TREZOR>`_ before applying any updates.  If there ever was a problem with the firmware not matching the source code, you can be sure someone will have written about it.
+However, you don't need to rely on the SatoshiLabs signature.  You can `verify the build yourself <https://github.com/trezor/trezor-mcu/blob/master/README.md>`_.  Our hope is that a few trusted TREZOR users will make a habit of verifying firmware checksums.  If you are concerned about this, we suggest making a habit of checking `our blog <https://blog.trezor.io>`_ or social news channels such as `Reddit <https://www.reddit.com/r/TREZOR>`_ before applying any updates.  If there ever was a problem with the firmware not matching the source code, you can be sure someone will have written about it.
 
 You don't need to worry about the firmware being updated by a computer virus.  Your TREZOR will ask you to manually confirm the update before anything is written to the TREZOR's memory.
 
@@ -84,7 +84,7 @@ If your computer has a keylogger installed on it, then the randomly ordered word
 
 There are `24! <https://en.wikipedia.org/wiki/Factorial>`_ possible orderings of a 24-word seed.  That is 620448401733239439360000 possible orderings.
 
-Each 24 word TREZOR recovery seed is verified with an `8 bit checksum <../trezor-tech/cryptography.html#mnemonic-recovery-seed-bip39>`_ .  Using the checksum to eliminate invalid seeds, you can reduce the search space by a factor of 256.  This gives us a search space of:
+Each 24-word TREZOR recovery seed is verified with an `8-bit checksum <../trezor-tech/cryptography.html#mnemonic-recovery-seed-bip39>`_.  Using the checksum to eliminate invalid seeds, you can reduce the search space by a factor of 256.  This gives us a search space of:
 
 24! ÷ 256 = 2423626569270466560000
 
@@ -94,9 +94,9 @@ To summarize, in order to check all possible orderings in a 24-word seed, you ne
 
 24! ÷ 256 × 8096 = 19621680704813697269760000 times
 
-The bitcoin network is capable of preforming `176 537 883 000 000 000 <https://blockchain.info/charts/hash-rate>`_ iterations of `SHA-256 <https://en.bitcoin.it/wiki/Hash>`_ each second.
+The bitcoin network is capable of performing `176 537 883 000 000 000 <https://blockchain.info/charts/hash-rate>`_ iterations of `SHA-256 <https://en.bitcoin.it/wiki/Hash>`_ each second.
 
-If we wave our hands a bit, we can claim that SHA-512 and SHA-256 are the same difficulty (which they aren't but let's pretend they are).  Therefore, it should take somewhere around half of:
+If we wave our hands a bit, we can claim that SHA-512 and SHA-256 are equally difficult (which they aren't but let's pretend they are).  Therefore, it should take somewhere around half of:
 
 (24! ÷ 256 × 8096) ÷ 176 537 883 000 000 000 ÷ 60 ÷ 60 ÷ 24 ÷ 365 = 3.5 years
 
@@ -114,19 +114,19 @@ First is to increase the durability of the device. We feel that TREZOR is durabl
 
 Second, to obfuscate components you are using in your design. This is not needed as the design is open source.
 
-Thirdly, to make access to the MCU harder. If you are highly motivated, epoxy will just slow you down, not stop you. Also MCU has a disabled JTAG, so there is no need to block access to MCU pins.
+Thirdly, to make access to the MCU harder. If you are highly motivated, epoxy will just slow you down, not stop you. Also, MCU has a disabled JTAG, so there is no need to block access to MCU pins.
 
 
 Why didn't you use Secure Element or Secure Chip?
 =================================================
 
-We want to keep TREZOR as open as possible (both firmware and hardware are completely open source and available on our `GitHub <https://github.com/trezor>`_). If we used Secure Element, we would limit hobbyist and hackers in creating their `own clones <http://www.stellaw.info/blog/2015/12/22/i-built-my-own-trezor-clone-dinosaur-hiphop-zero>`_, because you cannot use Secure Element in your design unless you sign a non-disclosure agreement with the vendor. By using standard off-the-shelf components, we make that really easy. We are aware of Secure Element's advantages, but we are trying to fix most disadvantages of generic MCU in the software (see below).
+We want to keep TREZOR as open as possible (both firmware and hardware are completely open-source and available on our `GitHub <https://github.com/trezor>`_). If we used Secure Element, we would limit hobbyist and hackers in creating their `own clones <http://www.stellaw.info/blog/2015/12/22/i-built-my-own-trezor-clone-dinosaur-hiphop-zero>`_, because you cannot use Secure Element in your design unless you sign a non-disclosure agreement with the vendor. By using standard off-the-shelf components, we make that really easy. We are aware of Secure Element's advantages, but we are trying to fix most disadvantages of generic MCU in the software (see below).
 
 
 What's up with the side channel attacks?
 =========================================
 
-Side channel attacked `described by Jochen Hoenicke <https://jochen-hoenicke.de/trezor-power-analysis/>`_ were fixed by rewriting all crypto functions to use constant time. Jochen did almost all of the fixing and we've been collaborating ever since on various security and non-security related improvements. We love our community! Also we ask PIN before every operation involving a private key (e.g. generating of the public key), so even if there was some side channel attack left, you would still need to know the PIN to trigger it.
+Side channel attacked `described by Jochen Hoenicke <https://jochen-hoenicke.de/trezor-power-analysis/>`_ were fixed by rewriting all crypto functions to use constant time. Jochen did almost all of the fixing and we've been collaborating ever since on various security and non-security related improvements. We love our community! Also, we ask PIN before every operation involving a private key (e.g. generating of the public key), so even if there was some side channel attack left, you would still need to know the PIN to trigger it.
 
 
 How about MCU glitching?

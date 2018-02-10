@@ -4,7 +4,7 @@ Software design & security
 What are a recovery seed, a PIN and encryption passphrase and the difference between them?
 ------------------------------------------------------------------------------------------
 
-**Recovery seed** is a mnemonic code made of 12, 18 or 24 words depending on your choice. This seed is generated the first time you run TREZOR and will help you recovering it's contents (private keys, bitcoin balance, and transaction history) into a new device if you lose your TREZOR.
+**Recovery seed** is a mnemonic code made of 12, 18 or 24 words depending on your choice. This seed is generated the first time you run TREZOR and will help you recovering its contents (private keys, bitcoin balance, and transaction history) into a new device if you lose your TREZOR.
 
 **PIN** is a number that you set when you first run TREZOR. It protects TREZOR against being used by unauthorized persons. We have invented a `secure way <../trezor-user/enteringyourpin.html>`_ of entering the PIN so it can’t be keylogged and misused.
 
@@ -48,4 +48,4 @@ If somebody steals my TREZOR, they'll just empty out my wallet before I have the
 
 Not at all. All operations on TREZOR require the user to enter a **PIN**. The attacker would have to guess your PIN which is very difficult because with each badly entered PIN the time for entering it anew increases exponentially. For example, the delay between 19th and 20th PIN entering is 35 hours. Unplugging and plugging the device won’t help. The thief would have to sit his life off entering the PINs. Meanwhile, you have enough time to move your funds into a new device or wallet from the paper backup.
 
-You can also hide your wallet behind **passphrase** which can be set on top of the PIN. Read more about the `multi-passphrase encyption (hidden wallets) <../trezor-user/advanced_settings.html#multi-passphrase-encryption-hidden-wallets>`_.
+You can also hide your wallet behind **passphrase** which can be set on top of the PIN. Read more about the `multi-passphrase encryption (hidden wallets) <../trezor-user/advanced_settings.html#multi-passphrase-encryption-hidden-wallets>`_.

@@ -237,7 +237,7 @@
 <h1>Software design &amp; security<a class="headerlink" href="#software-design-security" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="what-are-a-recovery-seed-a-pin-and-encryption-passphrase-and-the-difference-between-them">
 <h2>What are a recovery seed, a PIN and encryption passphrase and the difference between them?<a class="headerlink" href="#what-are-a-recovery-seed-a-pin-and-encryption-passphrase-and-the-difference-between-them" title="Permalink to this headline">¶</a></h2>
-<p><strong>Recovery seed</strong> is a mnemonic code made of 12, 18 or 24 words depending on your choice. This seed is generated the first time you run TREZOR and will help you recovering it’s contents (private keys, bitcoin balance, and transaction history) into a new device if you lose your TREZOR.</p>
+<p><strong>Recovery seed</strong> is a mnemonic code made of 12, 18 or 24 words depending on your choice. This seed is generated the first time you run TREZOR and will help you recovering its contents (private keys, bitcoin balance, and transaction history) into a new device if you lose your TREZOR.</p>
 <p><strong>PIN</strong> is a number that you set when you first run TREZOR. It protects TREZOR against being used by unauthorized persons. We have invented a <a class="reference external" href="../trezor-user/enteringyourpin.html">secure way</a> of entering the PIN so it can’t be keylogged and misused.</p>
 <p><strong>Encryption passphrase</strong> can be set on top of the PIN. This protects the device in case of a seizure. It’s using military-grade encryption of the seed on TREZOR storage, so even torturing the device in a laboratory won’t leak your private keys.</p>
 <p>A combination of these security mechanisms makes your bitcoin ownership with TREZOR absolutely safe.</p>
@@ -264,7 +264,7 @@
 <div class="section" id="if-somebody-steals-my-trezor-they-ll-just-empty-out-my-wallet-before-i-have-the-chance-to-restore-anyway-right">
 <h2>If somebody steals my TREZOR, they’ll just empty out my wallet before I have the chance to restore anyway. Right?<a class="headerlink" href="#if-somebody-steals-my-trezor-they-ll-just-empty-out-my-wallet-before-i-have-the-chance-to-restore-anyway-right" title="Permalink to this headline">¶</a></h2>
 <p>Not at all. All operations on TREZOR require the user to enter a <strong>PIN</strong>. The attacker would have to guess your PIN which is very difficult because with each badly entered PIN the time for entering it anew increases exponentially. For example, the delay between 19th and 20th PIN entering is 35 hours. Unplugging and plugging the device won’t help. The thief would have to sit his life off entering the PINs. Meanwhile, you have enough time to move your funds into a new device or wallet from the paper backup.</p>
-<p>You can also hide your wallet behind <strong>passphrase</strong> which can be set on top of the PIN. Read more about the <a class="reference external" href="../trezor-user/advanced_settings.html#multi-passphrase-encryption-hidden-wallets">multi-passphrase encyption (hidden wallets)</a>.</p>
+<p>You can also hide your wallet behind <strong>passphrase</strong> which can be set on top of the PIN. Read more about the <a class="reference external" href="../trezor-user/advanced_settings.html#multi-passphrase-encryption-hidden-wallets">multi-passphrase encryption (hidden wallets)</a>.</p>
 </div>
 </div>
 

@@ -39,16 +39,16 @@ Possible outcomes:
 1. If we find the product working without any problem, we will ship the original product back to you.
 2. If we find the product faulty, we will ship the replacement to you without any delay.
 
-**non Defective On Arrival (non DOA)**
+**non-Defective On Arrival (non-DOA)**
 
-In case you initiate the RMA later than in first 15 days, we consider your request as "non Defective On Arrival". When it arrives back to us, we will inspect the product.
+In case you initiate the RMA later than in first 15 days, we consider your request as "non-Defective On Arrival". When it arrives back to us, we will inspect the product.
 
 Possible outcomes:
 
 1. If we find the product working without any problem, we will ship the original product back to you.
-2. If we find the product faulty, we will forward it to the manufacturer for further detailed inspection using laboratory equipment. This procedure takes about one month due to processing time of the manufacturer.
+2. If we find the product faulty, we will forward it to the manufacturer for further detailed inspection using laboratory equipment. This procedure takes about one month due to the processing time on the part of the manufacturer.
 
 It will lead to one of the following situations:
 
-A. Manufacturer rejects the request due to damage was caused by customer and we will ship the original product back to you.
+A. Manufacturer rejects the request due to damage was caused by the customer and we will ship the original product back to you.
 B. Manufacturer approves the product is faulty and we will ship the replacement to you without any delay.

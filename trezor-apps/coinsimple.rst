@@ -6,7 +6,7 @@ CoinSimple
 What is CoinSimple?
 -------------------------
 
-`CoinSimple <https://coinsimple.com>`_ is an online Bitcoin invoincing service and wallet connector which offers passwordless login with TREZOR.
+`CoinSimple <https://coinsimple.com>`_ is an online Bitcoin invoicing service and wallet connector which offers passwordless login with TREZOR.
 Get the benefits of a Bitcoin payment processor and a secure & private watch-only wallet in one.
 Connect your CoinSimple account to your TREZOR account of your choice and begin invoicing your customers.
 You can see all open and closed invoices in one glance. See more details `here <https://coinsimple.com/faq/#what-is-coinsimple>`_
@@ -28,9 +28,9 @@ The following dialog will appear.
 
 .. image:: images/coinsimple02a.png
 
-Open new tab in your browsers and go to `TREZOR Wallet <https://wallet.trezor.io>`_. Connect your TREZOR.
+Open a new tab in your browsers and go to `TREZOR Wallet <https://wallet.trezor.io>`_. Connect your TREZOR.
 In Basic settings copy selected account public key into the clipboard. And paste it into CoinSimple dialog into the first field.
-We recommend you to create brand new account for this purpose (although you can also use one of your non-empty accounts if you want).
+We recommend you to create a brand new account for this purpose (although you can also use one of your non-empty accounts if you want).
 
 .. image:: images/coinsimple-trezorwallet01.png
 
@@ -56,11 +56,11 @@ The customer has 15 minutes to make the payment.
 
 .. image:: images/coinsimple06.png
 
-After successfull payment, email confirmation is sent to you and your customer.
+After successful payment, an email confirmation is sent to you and your customer.
 
 .. image:: images/coinsimple08.png
 
-You can also quickly check current status of your payments in the Invoice section.
+You can also quickly check the current status of your payments in the Invoice section.
 
 .. image:: images/coinsimple09.png
 
@@ -76,7 +76,7 @@ Click on Modify logging in with TREZOR to start linking procedure. You will be a
 
 .. image:: images/coinsimple11.png
 
-Authenticate with your PIN. Note, that PIN is never asked again until you disconect the device.
+Authenticate with your PIN. Note, that PIN is never asked again until you disconnect the device.
 
 .. image:: images/coinsimple12.png
 
@@ -84,10 +84,10 @@ To finish the procedure you will be asked to confirm the action by clicking on t
 
 .. image:: images/coinsimple13.png
 
-After the confirmation everything is ready for your first passwordless authentication with TREZOR.
+After the confirmation, everything is ready for your first passwordless authentication with TREZOR.
 
 .. image:: images/coinsimple14.png
 
-Logout and click on Log in with TREZOR to test it.
+Log out and click on Log in with TREZOR to test it.
 
 .. image:: images/coinsimple15.png

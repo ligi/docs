@@ -20,6 +20,8 @@ After you implement TREZOR Connect into your web page, the following button will
 
 .. image:: images/connect-button.png
 
+.. note:: It is possible to customize the button to fit your needs and preferences. Please take a look at this part of the `code <https://github.com/trezor/connect/blob/gh-pages/examples/login-restyled.html#L22-L47>`_ and modify it accordingly. Here is some `example <https://trezor.github.io/connect/examples/login-restyled.html>`_ how your button could look like.
+
 When user clicks on the button, the following dialog windows will popup:
 
 .. image:: images/connect-screen.png

@@ -7,14 +7,14 @@ Blockonomics
 What is Blockonomics?
 -------------------------
 
-`Blockonomics <https://www.blockonomics.co>`_ is a web based bitcoin tracker.
+`Blockonomics <https://www.blockonomics.co>`_ is a web-based bitcoin tracker.
 Its wallet watcher can be used to see history of your bitcoin transactions,
-get email notfications of payments and know your total balance. You can also create encrypted invoices, receive payments directly into your TREZOR
+get email notifications of payments and know your total balance. You can also create encrypted invoices, receive payments directly into your TREZOR
 wallet without the need of opening your wallet.
 
 Blockonomics requires your
 TREZOR wallet XPUB to be able to perform these functions.
-It cannot create transactions or send your bitcoins, it is only  a **wallet watcher**.
+It cannot create transactions or send your bitcoins, it is only a **wallet watcher**.
 
 Resources
 ^^^^^^^^^
@@ -45,7 +45,7 @@ transactions.
          :scale: 75 %
 
 To receive payments, use the receive tab to generate new receiving address. Use
-the create invoice button to create peer to peer bitcoin invoice using your address. Invoice amount
+the create invoice button to create a peer to peer bitcoin invoice using your address. Invoice amount
 can be specified in fiat currency like USD. Blockonomics will take care of
 conversion to BTC at the time of payment.
 

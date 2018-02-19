@@ -7,7 +7,7 @@ What is Coinpayments?
 -------------------------
 
 `Coinpayments <https://coinpayments.net>`_ is an online payment processor service allowing you to buy and sell
-items easily with `any crypto currency <https://www.coinpayments.net/supported-coins>`_.
+items easily with `any cryptocurrency <https://www.coinpayments.net/supported-coins>`_.
 Merchants can now safely manage their accounts thanks to `Sign in with TREZOR <../trezor-tech/api-connect.html>`_
 feature allowing for passwordless and secure authentication.
 
@@ -21,7 +21,7 @@ TREZOR User Manual
 ------------------
 
 Before you can Sign in with your TREZOR, you have to **sign up with username & password** first.
-After account email verification, go ahead and sign in with your credentials.
+After verifying your e-mail account, go ahead and sign in using your credentials.
 
 .. image:: images/coinpayments01.png
 
@@ -41,7 +41,7 @@ You will be asked to confirm the action on your TREZOR,
 
 .. image:: images/coinpayments02.png
 
-and authenticate with your PIN. Note, that PIN is never asked again until you disconect and reconnect the device.
+and authenticate with your PIN. Note, that PIN is never asked again until you disconnect and reconnect the device.
 
 .. image:: images/coinpayments10.png
 

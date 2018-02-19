@@ -6,9 +6,9 @@ Bitstamp
 What is Bitstamp?
 -----------------
 
-`Bitstamp <https://www.bitstamp.net>`_ is a biggest European bitcoin exchange based in Luxembourg. It allows trading between FIAT currency and bitcoin cryptocurrency.
+`Bitstamp <https://www.bitstamp.net>`_ is a biggest European bitcoin exchange based in Luxembourg. It allows trading between FIAT currencies and various cryptocurrencies.
 
-Thanks to TREZOR, you can exchange your funds safely and more secure that ever before!
+Thanks to TREZOR, you can exchange your funds safely and in a more secure way than ever before!
 
 Resources
 ^^^^^^^^^
@@ -27,7 +27,7 @@ This feature is great for everyone who loves TREZOR security.
 
 1) Log into Bitstamp account.
 2) Go to Deposit -> Bitcoin -> HW Wallet -> TREZOR.
-3) Select desired amount and click on "Deposit".
+3) Select the desired amount and click on "Deposit".
 4) Connect your TREZOR and follow the instructions.
 5) Authenticate to your TREZOR with PIN/Passphrase.
 6) Choose the account you want to send the bitcoins from.
@@ -37,7 +37,7 @@ This feature is great for everyone who loves TREZOR security.
 .. image:: images/bitstamp.gif
 
 
-Withdrawal funds with TREZOR
+Withdraw funds with TREZOR
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1) Log into Bitstamp account.
@@ -45,5 +45,5 @@ Withdrawal funds with TREZOR
 3) Connect your TREZOR and follow the instructions.
 4) Authenticate to your TREZOR with PIN/Passphrase.
 5) Choose the account you want to send the bitcoins to.
-6) Select desired amount and click on "Withdrawal".
+6) Select the desired amount and click on "Withdrawal".
 7) Confirm the withdrawal transaction via received e-mail. Done.

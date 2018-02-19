@@ -7,8 +7,8 @@ What is Coinmap?
 ----------------
 
 `Coinmap <https://coinmap.org>`_ is a map where you can find bitcoin shops and businesses.
-It is also great tool for journalists who want to study and report on an adoption of bitcoin in real economy.
-Recently, brand new redesigned **Coinmap 2.0** has been released which allows fast creation of map venues
+It is also a great tool for journalists who want to study and report on an adoption of bitcoin in the real economy.
+Recently, the brand new redesigned **Coinmap 2.0** has been released which allows fast creation of map venues
 and also user ratings and reporting.
 
 Find out about bitcoin shops in your neighbourhood and on your travels! Let your customers know you accept bitcoin!
@@ -34,12 +34,12 @@ You will be asked to confirm the action on your TREZOR.
 
 .. image:: images/coinmap04.png
 
-If your device is locked, you will have to enter your PIN. Note, that PIN is never asked again until you disconect and reconnect the device.
+If your device is locked, you will have to enter your PIN. Note, that PIN is never asked again until you disconnect and reconnect the device.
 
 .. image:: images/coinmap05.png
 
 When signed in, adding a new venue is a matter of seconds: Right click on the location where you want to place new venue
-and select Add Venue. Then fill out name of your business and other details and click Save. That's it,
+and select Add Venue. Then fill out the name of your business and other details and click Save. That's it,
 you have just added your business to Coinmap.
 
 .. image:: images/coinmap01.png

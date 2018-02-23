@@ -26,12 +26,12 @@ In contrast to the various pieces of software and web services that allow you to
 Which operating systems and devices support TREZOR?
 ---------------------------------------------------
 
-There is full support for Windows (version 7 and higher), OS X (version 10.8 and higher) and Linux. You can also use your TREZOR with Android devices which have USB On-The-Go (aka USB Host).
+There is full support for Windows (version 7 and higher), OS X (version 10.11 and higher) and Linux. You can also use your TREZOR with Android devices which have USB On-The-Go (aka USB Host).
 
 Which browsers are currently supported by TREZOR wallet?
 ---------------------------------------------------
 
-The major supported browsers are Chrome and Firefox. The other browsers may be usable but we can't guarantee the full functionality.
+The major supported browsers are Chrome and Firefox. The other browsers may be usable but we can't guarantee a full functionality.
 
 Which wallets are compatible with TREZOR hardware?
 --------------------------------------------------

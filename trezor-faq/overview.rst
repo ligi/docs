@@ -79,8 +79,8 @@ ERC-20 Tokens                     `MyEtherWallet <../trezor-apps/mew.html>`_
 Expanse (EXP)                     `MyEtherWallet <../trezor-apps/mew.html>`_
 UBIQ (UBQ)                        `MyEtherWallet <../trezor-apps/mew.html>`_
 NEM (XEM)                         NEM Nano Wallet
-Namecoin                          None
-Dogecoin                          None
+Namecoin                          No interface
+Dogecoin                          No interface
 Bitcoin Testnet                   Custom TREZOR Wallet
 ================================= =========================================================
 

@@ -125,14 +125,13 @@ What are the shipping options?
 
 **DHL Express shipping**
 
-Default shipping option. DHL Express shipping which costs $29 and it's fully traceable.
-Delivery time is usually 2-5 business days.
+Default shipping option. The price for DHL Express shipping may vary depending on your location and is not available for Russia. It offers full track and trace capability. Delivery time is usually 2-5 business days.
 
-**Standard worldwide shipping**
+**Standard shipping**
 
-You can also choose Standard shipping for $10 and the traceability is limited.
-Delivery time may vary between 5 days to 6 weeks depending on your location and your national post.
+You can also choose standard postal shipping, which has limited traceability in certain countries. Delivery time may vary between 5 days to 6 weeks depending on your location and your national post. Standard shipping is offered for free within the EU.
 
+You can read more about our shipping system `here <https://blog.trezor.io/trezor-shipping-process-delivery-dispatch-explained-order-logistics-58e45e25ee8>`_
 
 
 Where can I follow my order (get a tracking number)?

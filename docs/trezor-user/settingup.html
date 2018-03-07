@@ -77,11 +77,11 @@
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="whatsinthebox.html">What’s in the box?</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Setting up your TREZOR device</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#online-at-trezor-wallet">1. Online at TREZOR Wallet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#trezor-bridge">1. TREZOR Bridge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#trezor-chrome-extension">2. TREZOR Chrome extension</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#trezor-manager-for-android">3. TREZOR Manager for Android</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#offline-with-python-tools">4. Offline with Python tools</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#trezor-setup-in-trezor-wallet">TREZOR Setup in TREZOR Wallet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setting-up-trezor-with-trezor-wallet">Setting up TREZOR with TREZOR Wallet</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="receivingpayments.html">Receiving payments</a><ul>
@@ -247,41 +247,60 @@
             
   <div class="section" id="setting-up-your-trezor-device">
 <h1>Setting up your TREZOR device<a class="headerlink" href="#setting-up-your-trezor-device" title="Permalink to this headline">¶</a></h1>
-<p>The TREZOR works with almost any computer that has a USB port or with Android devices with USB Host support.</p>
-<p>There are four options to initialize the TREZOR device.</p>
-<div class="section" id="online-at-trezor-wallet">
-<h2>1. Online at TREZOR Wallet<a class="headerlink" href="#online-at-trezor-wallet" title="Permalink to this headline">¶</a></h2>
-<p>To allow the <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a> wallet to communicate with the TREZOR you need to install a piece of software called the TREZOR Bridge.  If you go to the <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a> website you should see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">We also provide a <a class="reference external" href="https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj">Chrome extension</a>, which works on all platforms. However, Linux users need to perform additional configuration of their system, please see <a class="reference internal" href="settingupchromeonlinux.html"><span class="doc">Setting up Chrome extension on Linux</span></a>.</p>
-</div>
-<p>Once you’ve got the TREZOR Bridge or TREZOR Chrome extension installed go to <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a> again.</p>
+<p>TREZOR works with almost any computer that has a USB port or with Android devices with USB Host support.</p>
+<p>There are four options to make TREZOR communicate with <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a>.</p>
+<div class="section" id="trezor-bridge">
+<h2>1. TREZOR Bridge<a class="headerlink" href="#trezor-bridge" title="Permalink to this headline">¶</a></h2>
+<p>To allow TREZOR communicate with <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a> you need to install a piece of software called TREZOR Bridge.  When you go to <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a> website you will see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.</p>
 </div>
 <div class="section" id="trezor-chrome-extension">
 <h2>2. TREZOR Chrome extension<a class="headerlink" href="#trezor-chrome-extension" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj">TREZOR Chrome extension</a> can be used cross platforms, however only with Chrome based browsers. Please note that Linux users need to perform additional configuration of their system, please see <a class="reference internal" href="settingupchromeonlinux.html"><span class="doc">Setting up Chrome extension on Linux</span></a>. After you successfully install the extension please open the <a class="reference external" href="chrome://apps/">Apps tab</a> and double click on the TREZOR Extension.</p>
+<p>An alternative to TREZOR Bridge is TREZOR Chrome extension. <a class="reference external" href="https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj">TREZOR Chrome extension</a> can be used across platforms, however only with Chrome-based browsers. Linux users need to perform additional configuration of their system. For more details, please see <a class="reference internal" href="settingupchromeonlinux.html"><span class="doc">Setting up Chrome extension on Linux</span></a>. After you successfully install the extension, please open the <a class="reference external" href="chrome://apps/">Apps tab</a> and double click on the TREZOR Extension.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">There is still a possibility to download the  <a class="reference external" href="https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj">Chrome extension</a>, which works on all platforms. However, Google is planning to end its support for Chrome apps. As a result, this solution will not be available when that happens.</p>
+</div>
+<p>Once you’ve got the TREZOR Bridge or TREZOR Chrome extension installed, go to <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a> again.</p>
 </div>
 <div class="section" id="trezor-manager-for-android">
 <h2>3. TREZOR Manager for Android<a class="headerlink" href="#trezor-manager-for-android" title="Permalink to this headline">¶</a></h2>
 <p>You can also set up TREZOR with our <a class="reference external" href="https://play.google.com/store/apps/details?id=io.trezor.app">TREZOR Manager</a>, which can be found in Google Play store. Your phone has to support the USB Host (USB On The Go - OTG) and you need to use the OTG cable (you can buy one as a TREZOR accessory directly at <a class="reference external" href="https://shop.trezor.io/">TREZOR Shop</a>.)</p>
-<p>Please see our step by step manual <a class="reference internal" href="android.html"><span class="doc">how to set up TREZOR with TREZOR Manager for Android</span></a>.</p>
+<p>For more details, see our step by step manual <a class="reference internal" href="android.html"><span class="doc">how to set up TREZOR with TREZOR Manager for Android</span></a>.</p>
 </div>
 <div class="section" id="offline-with-python-tools">
 <h2>4. Offline with Python tools<a class="headerlink" href="#offline-with-python-tools" title="Permalink to this headline">¶</a></h2>
-<p>This procedure is only for advanced users! We do not recommend to use it unless you have some experience with command line and Python. If you wish to proceed further anyway please visit our <a class="reference external" href="https://github.com/trezor/python-trezor">Github repository</a>.</p>
+<p>This procedure is only for advanced users! We do not recommend to use it unless you have some experience with a command line and Python. If you wish to proceed further anyway please visit our <a class="reference external" href="https://github.com/trezor/python-trezor">Github repository</a>.</p>
 </div>
-<div class="section" id="trezor-setup-in-trezor-wallet">
-<h2>TREZOR Setup in TREZOR Wallet<a class="headerlink" href="#trezor-setup-in-trezor-wallet" title="Permalink to this headline">¶</a></h2>
-<p>The process of actual device setup is pretty much the same when using TREZOR Wallet, Chrome extension or TREZOR Manager for Android. Let’s go through it when setting up in TREZOR Wallet (wallet.trezor.io).</p>
-<p>As TREZOR comes without firmware installed, to make sure you always have the newest version when setting up, the first thing you will be asked to do is to install the device system - firmware. Simply confirm the installation and follow instructions on your screen. Please note, that with the new bootloader version, you will not be asked to confirm fingerprints during the initial setup.</p>
+<div class="section" id="setting-up-trezor-with-trezor-wallet">
+<h2>Setting up TREZOR with TREZOR Wallet<a class="headerlink" href="#setting-up-trezor-with-trezor-wallet" title="Permalink to this headline">¶</a></h2>
+<p>You’ve successfully established a communication between your TREZOR and TREZOR Wallet. Good job! Now go to go to <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a>. There are still a couple of steps you need to take in order to start using your TREZOR, so let’s get right into it.</p>
+<p>As TREZOR comes without a firmware installed, to make sure you always have the newest version when setting up, the first thing you will be asked to do is to install the device system - firmware. Simply confirm the installation and follow instructions on your screen.</p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">If your device came with a preinstalled firmware, do not use it and contact our support immediately!</p>
 </div>
-<p>After installing firmware, replug your TREZOR, and you will see a web page welcoming you and asking for a device label:</p>
-<img alt="_images/welcometosetup.png" src="_images/welcometosetup.png" />
-<p>Enter a new name for your TREZOR device and press Continue.  You should see the first seed word.  Now go on to <a class="reference internal" href="fillingoutyourrecoverycard.html"><span class="doc">Filling out your Recovery Card</span></a>.</p>
+<p>In order to install or update the firmware, you will have to enter a so-called bootloader mode. Bootloader basically verifies the validity of the firmware software. You can read all about our bootloader versions and changes which were applied here: <a class="reference external" href="https://github.com/trezor/trezor-mcu/blob/master/bootloader/ChangeLog">Github repository</a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since the latest bootloader version 1.3.2, you will not be asked to confirm fingerprints during the initial setup, which is applied automatically. However, you will be asked to compare the fingerprints with any additional firmware update.</p>
+</div>
+<p>After the firmware is installed successfully, replug your TREZOR, and you will be greeted by a welcome page where you can choose to either Create a new wallet or Recover wallet. Simply click on “Create new” button.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">With TREZOR, you can recover any wallet based on 12, 18, or 24-word recovery seed (BIP32/39/44). For more details on how the recovery process works, please see <span class="xref std std-doc">Recovery process</span></p>
+</div>
+<p>Once you create a new wallet, you’re pretty much inside your own TREZOR Wallet and you can look through all of the features it has to offer. However, it would be very unwise to use your TREZOR Wallet without having it backed up. Therefore, we strongly advise to proceed with the backup and write down your recovery seed immediately.</p>
+<p>After you agree to the terms, you will see a unique combination of words on your TREZOR screen which need to be written down to your recovery card. The whole process is described in the following section <a class="reference internal" href="fillingoutyourrecoverycard.html"><span class="doc">Filling out your Recovery Card</span></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">TREZOR One generates a 24-word seed by default. However, TREZOR T is backed up by a simple 12-word recovery seed, which is also compatible with the common standards for HD wallets (BIP32/39/44).</p>
+</div>
+<p>After you’ve successfully backed up your device, you will be able to label your TREZOR. The maximum label length is 16 characters.</p>
+<p>Once you’ve personalized your TREZOR, the last step is to create a PIN. It is best to choose a strong PIN to protect your device from unauthorized access. Entering a PIN on TREZOR One is explained in the following section <a class="reference internal" href="enteringyourpin.html"><span class="doc">Entering your PIN</span></a> After you re-confirm your PIN, you can start using your TREZOR Wallet safely.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">On TREZOR T, you can simply click the numbers on your touchscreen. In addition to the previous model, a “0” has been added to the PIN pad.</p>
+</div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">There are also several <a class="reference internal" href="advanced_settings.html"><span class="doc">Advanced settings</span></a> that you can configure.</p>

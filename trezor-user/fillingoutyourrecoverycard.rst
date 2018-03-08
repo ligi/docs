@@ -1,21 +1,19 @@
 Filling out your recovery card
 ==============================
 
-If you have set your device label successfully you will now see a message on your TREZOR's screen prompting you to write down the seed.
-
 Your seed is a secret list of words that you will use to recover your money in case you ever lose your TREZOR.
 
-Now you should get out the recovery card that came with your TREZOR and fill out the blanks with the words you see on your screen.
+Now you should take out the recovery card which came with your TREZOR and fill out the blanks with the words you see on the screen.
 
-.. image:: images/trezor-reset.jpg
+.. note:: TREZOR One generates a 24-word seed by default. However, TREZOR T is backed up by a simple 12-word recovery seed, which is also compatible with the common standards for HD wallets (BIP32/39/44).
 
-To go to the next word press the right button on the device.
+With TREZOR One, go to the next word by simply pressing the right button on the device. With TREZOR T, swipe up on the touchscreen to see the next set of words.
 
-Once you have written down the secret words in your seed you will find yourself at the beginning of the list again.  As you proceed through the list of seed words for the second time, check them against your recovery card to ensure that you have filled out your recovery card correctly.
+Once you have written down all the secret words, you will be asked to re-confirm that they are written down correctly. TREZOR One will let you go through all the 24 words again, so you can carefully check them against your recovery card. On the contrary, TREZOR T will ask you to complete random words from your 12-word seed on the touchscreen.   
 
-Once you have done so, you're ready to start using your TREZOR device!
+Once finished, you're ready to start using your TREZOR device!
 
-.. note:: It is safe to unplug your TREZOR device at any time except during updates.
+.. note:: Do not disconnect your TREZOR device during the backup process.
 
 .. hint:: You can print more :download:`recovery cards <images/recovery_card.pdf>` and store them at different physical locations.
 

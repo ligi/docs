@@ -8,7 +8,7 @@ There are four options to make TREZOR communicate with `TREZOR Wallet <https://w
 1. TREZOR Bridge
 --------------------------
 
-To allow TREZOR communicate with `TREZOR Wallet <https://wallet.trezor.io>`_ you need to install a piece of software called TREZOR Bridge.  When you go to `TREZOR Wallet <https://wallet.trezor.io>`_ website you will see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.
+To allow TREZOR to communicate with `TREZOR Wallet <https://wallet.trezor.io>`_ you need to install a piece of software called TREZOR Bridge.  When you go to `TREZOR Wallet <https://wallet.trezor.io>`_ website you will see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.
 
 2. TREZOR Chrome extension
 --------------------------
@@ -23,7 +23,7 @@ Once you've got the TREZOR Bridge or TREZOR Chrome extension installed, go to `T
 3. TREZOR Manager for Android
 -----------------------------
 
-You can also set up TREZOR with our `TREZOR Manager <https://play.google.com/store/apps/details?id=io.trezor.app>`_, which can be found in Google Play store. Your phone has to support the USB Host (USB On The Go - OTG) and you need to use the OTG cable (you can buy one as a TREZOR accessory directly at `TREZOR Shop <https://shop.trezor.io/>`_.)
+You can also set up TREZOR with our `TREZOR Manager <https://play.google.com/store/apps/details?id=io.trezor.app>`_, which can be found in Google Play store. Your phone has to support the USB Host (USB On The Go - OTG) and you need to use the OTG cable (you can buy one as a TREZOR accessory directly at `TREZOR Shop <https://shop.trezor.io/>`_).
 
 For more details, see our step by step manual :doc:`how to set up TREZOR with TREZOR Manager for Android <android>`.
 
@@ -37,7 +37,7 @@ This procedure is only for advanced users! We do not recommend to use it unless 
 Setting up TREZOR with TREZOR Wallet
 -----------------------------
 
-You've successfully established a communication between your TREZOR and TREZOR Wallet. Good job! Now go to go to `TREZOR Wallet <https://wallet.trezor.io>`_. There are still a couple of steps you need to take in order to start using your TREZOR, so let's get right into it.
+You've successfully established a communication between your TREZOR and TREZOR Wallet. Good job! Now go to `TREZOR Wallet <https://wallet.trezor.io>`_. There are still a couple of steps you need to take in order to start using your TREZOR, so let's get right into it.
 
 As TREZOR comes without a firmware installed, to make sure you always have the newest version when setting up, the first thing you will be asked to do is to install the device system - firmware. Simply confirm the installation and follow instructions on your screen. 
 
@@ -49,7 +49,7 @@ In order to install or update the firmware, you will have to enter a so-called b
 
 After the firmware is installed successfully, replug your TREZOR, and you will be greeted by a welcome page where you can choose to either Create a new wallet or Recover wallet. Simply click on "Create new" button.
 
-.. note:: With TREZOR, you can recover any wallet based on 12, 18, or 24-word recovery seed (BIP32/39/44). For more details on how the recovery process works, please see :doc:`Recovery process <recoveryprocess>`
+.. note:: With TREZOR, you can recover any wallet based on 12, 18, or 24-word recovery seed (BIP32/39/44). For more details on how the recovery process works, please see :doc:`Recovery <recovery>`.
 
 Once you create a new wallet, you're pretty much inside your own TREZOR Wallet and you can look through all of the features it has to offer. However, it would be very unwise to use your TREZOR Wallet without having it backed up. Therefore, we strongly advise to proceed with the backup and write down your recovery seed immediately. 
 

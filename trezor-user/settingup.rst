@@ -45,7 +45,7 @@ As TREZOR comes without a firmware installed, to make sure you always have the n
 
 In order to install or update the firmware, you will have to enter a so-called bootloader mode. Bootloader basically verifies the validity of the firmware software. You can read all about our bootloader versions and changes which were applied here: `Github repository <https://github.com/trezor/trezor-mcu/blob/master/bootloader/ChangeLog>`_.
 
-.. note:: Since the latest bootloader version 1.3.2, you will not be asked to confirm fingerprints during the initial setup, which is applied automatically. However, you will be asked to compare the fingerprints with any additional firmware update.
+.. note:: On Model One, you will not be asked to confirm fingerprints during the initial setup, which is applied automatically. However, you will be asked to compare the fingerprints with any additional firmware update. On the Model T, you can check the firmware fingerprint by starting the device in bootloader mode (slide finger on the display when plugging the device in), and then click on the (i) icon.
 
 After the firmware is installed successfully, replug your TREZOR, and you will be greeted by a welcome page where you can choose to either Create a new wallet or Recover wallet. Simply click on "Create new" button.
 

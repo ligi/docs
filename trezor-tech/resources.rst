@@ -16,7 +16,7 @@ Git repositories
 
   * `trezor-emu <https://github.com/trezor/trezor-emu>`_ -- Emulator
 
-  * `trezord <https://github.com/trezor/trezord>`_ -- Communication Daemon (aka Bridge)
+  * `trezord <https://github.com/trezor/trezord-go>`_ -- Communication Daemon (aka Bridge)
 
   * `trezor.js <https://github.com/trezor/trezor.js>`_ -- Javascript Client Library
 

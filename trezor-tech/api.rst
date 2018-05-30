@@ -58,7 +58,7 @@ trezord is not intended for direct use by developers - it is still a little low-
 
 However, the *end user* of the web app needs to install either trezord or Chrome Extension.
 
-`See more documentation on the github page <https://github.com/trezor/trezord>`_.
+`See more documentation on the github page <https://github.com/trezor/trezord-go>`_.
 
 
 trezor-android
